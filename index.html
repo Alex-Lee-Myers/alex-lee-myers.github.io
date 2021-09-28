@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"  rel="stylesheet"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./style.css">
     <title>Alex Lee Myers | Web Developer</title>
 </head>
@@ -14,36 +17,85 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 10;">
         <div class="container-fluid">
-        <!-- navbar left side branding section -->
-            <a class="navbar-brand nav-link" target="_blank" href="https://github.com/Alex-Lee-Myers"><strong>Alex Lee Myers<strong></a>
-        <!-- b -->
+
+            <!-- button for navbar -->
             <button 
                 class="navbar-toggler" 
                 type="button" 
-                data-bs-toggle="collapse" 
-                data-bs-target="#navmenu">
-            >
-                <span class="navbar-toggler-icon"></span>
-            
+                data-mdb-toggle="collapse" 
+                data-mdb-target="#navbarFun"
+                aria-controls="navbarFun" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation"
+                >
+                <i class="fas fa-bars"></i>
             </button>
 
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#learn" class="nav-link">Bio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#questions" class="nav-link">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#instructors" class="nav-link">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+                <!-- About Me, Resume, Contact Me quick links -->
+                <div class="collapse navbar-collapse" id="navbarFun">
 
-<!-- header section -->
+                    <!-- Name Brand -->
+                    <a class="navbar-brand nav-link" target="_blank" href="https://github.com/Alex-Lee-Myers">
+                        <strong>Alex Lee Myers<strong></a>
+                    
+                    <!-- About Me, Projects, Resume, and Contact Me -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#aboutMe">
+                            About Me
+                        </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" rel="nofollow" target="_blank">
+                            Projects
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" target="_blank">
+                            Resume
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" target="_blank">
+                            Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            
+                <!-- Right align container for Social Media list -->
+                <div class="d-flex align-items-center">
+
+                    <!-- Social Media link list -->
+                                <ul class="navbar-nav d-flex flex-row">
+                        <!-- Icons -->
+                        <!-- Github link -->
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="https://github.com/Alex-Lee-Myers" rel="nofollow" target="_blank">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                        <!-- LinkedIn link -->
+                        <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="https://www.linkedin.com/in/alexanderlmyers/" rel="nofollow" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        </li>
+                        <!-- Twitter link -->
+                        <li class="nav-item me-3 me-lg-0">
+                            <a class="nav-link" href="https://twitter.com/AlexLeeMe" rel="nofollow" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        </li>
+                    </ul>
+
+                </div>
+            <!-- button up top -->
+        </div>
+    </div>
+</nav>
+
+<!-- header/landing section -->
 
     <section class="bg-dark text-light p-5 text-center">
         <div class="container">
@@ -61,7 +113,7 @@
         </div>
     </section>
 
-<!-- about me section -->
+<!-- About Me section -->
 
 <!-- Projects section: Static Layout, Creature, API#1, API#2, Blue Badge, Red Badge -->
 
@@ -69,8 +121,9 @@
 
 <!-- Footer -->
 
-<!-- bootstrap and javascrip attached here -->
+<!-- Bootstrap, MDB, and Javascript Attached Here -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
     <script src="apps.js"></script>
 </body>
 </html>
