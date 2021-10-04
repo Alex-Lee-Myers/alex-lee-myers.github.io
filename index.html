@@ -15,7 +15,7 @@
 
 <!-- Navbar section -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 10;">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-scroll" style="z-index: 10;">
         <div class="container-fluid">
 
             <!-- button for navbar -->
@@ -28,7 +28,7 @@
                 aria-expanded="false" 
                 aria-label="Toggle navigation"
                 >
-                <i class="fas fa-bars"></i>
+                <i class="fas fa-bars" style="color:#DAEBEE"></i>
             </button>
 
                 <!-- About Me, Resume, Contact Me quick links -->
@@ -37,26 +37,27 @@
                     <!-- Name Brand -->
                     <a class="navbar-brand nav-link" target="_blank" href="https://github.com/Alex-Lee-Myers">
                         <strong>Alex Lee Myers<strong></a>
+                        <!-- TODO Place an image of a logo instead. Needs illustrated. -->
                     
                     <!-- About Me, Projects, Resume, and Contact Me -->
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#aboutMe">
+                            <a class="nav-link" aria-current="page" href="#aboutMe" style="color:#DAEBEE">
                             About Me
                         </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" rel="nofollow" target="_blank">
+                            <a class="nav-link" href="#" rel="nofollow" target="_blank" style="color:#DAEBEE">
                             Projects
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" target="_blank">
+                            <a class="nav-link" href="#" target="_blank" style="color:#DAEBEE">
                             Resume
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" target="_blank">
+                            <a class="nav-link" href="#" target="_blank" style="color:#DAEBEE">
                             Contact Me
                             </a>
                         </li>
@@ -72,19 +73,19 @@
                         <!-- Github link -->
                         <li class="nav-item me-3 me-lg-0">
                             <a class="nav-link" href="https://github.com/Alex-Lee-Myers" rel="nofollow" target="_blank">
-                                <i class="fab fa-github-square"></i>
+                                <i class="fab fa-github-square" style="color:#DAEBEE"></i>
                             </a>
                         </li>
                         <!-- LinkedIn link -->
                         <li class="nav-item me-3 me-lg-0">
                         <a class="nav-link" href="https://www.linkedin.com/in/alexanderlmyers/" rel="nofollow" target="_blank">
-                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-linkedin" style="color:#DAEBEE""></i>
                         </a>
                         </li>
                         <!-- Twitter link -->
                         <li class="nav-item me-3 me-lg-0">
                             <a class="nav-link" href="https://twitter.com/AlexLeeMe" rel="nofollow" target="_blank">
-                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter" style="color:#DAEBEE"></i>
                         </a>
                         </li>
                     </ul>
@@ -97,24 +98,53 @@
 
 <!-- header/landing section -->
 
-    <section class="bg-dark text-light p-5 text-center">
-        <div class="container">
-            <div class="d-sm-flex"> <!-- flexbox = d-flex | d-sm means when it reaches small size, it stops using flexbox-->
-                <div class="bg-image" style="
-                background-image: url('./images/CoverPhoto.jpg');
-                height: 100vh;
-                ">
-                    <div>
-                        <h1>Web Developer</h1>
-                    </div>
-                    <!-- <img class="img-fluid w-100" src="./images/CoverPhoto.jpg" alt="" /> img-fluid keeps image within container, size class of w-50 is half size. h-50 would do too. -->
-                </div>
-            </div>
+  <!-- Background image -->
+  <div
+       id="intro"
+       class="bg-image"
+       style="
+              background-image: url('./images/CoverPhoto.jpg');
+              height: 100vh;
+              "
+       >
+       <!-- 
+           TODO add photoshopped out version of myself to stand out
+           TODO make it so on phone my portrait is visible
+           TODO if the page is small enough, title font says Alex Lee Myers | Web Developer
+           TODO ^^ and navbar DOES NOT say Alex Lee Myers
+           TODO #1 make the text visible. maybe do a mask?
+     -->
+    <div class="mask text-white" style="background-color: rgba(12, 12, 12, 0.493)">
+      <div class="container d-flex align-items-center text-left h-100 ">
+        <div>
+          <h1>.AlexLeeMyers</h1>
+          <h4 class="mb-3">I turn ideas into an accessible website.</h4>
+            <p class="text-lg-left mb-3" style="width: 50vw">
+                Hello world! I'm an Indiana-based <span style="color:#FF5126;""> full-stack web developer</span> who comes molded from background experiences involving time-intensive problem solving, vigilant attention to detail, and constant collaboration. 
+            </p>
+                
+            <p class="text-lg-left mb-3" style="width: 50vw">Presently, I work full-time as the Information Technology Coordinator at Indiana University.</p>
+            <p class="text-lg-left mb-3" style="width: 50vw">My next goal in my career is to become a full-time web developer.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</header>
 
 <!-- About Me section -->
-
+<div class="container my-5">
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quam minima perspiciatis eos tenetur. Praesentium dolores at quos aperiam sed, sint provident consectetur incidunt, nostrum porro earum commodi, ex architecto.</p>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quam minima perspiciatis eos tenetur. Praesentium dolores at quos aperiam sed, sint provident consectetur incidunt, nostrum porro earum commodi, ex architecto.</p>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quam minima perspiciatis eos tenetur. Praesentium dolores at quos aperiam sed, sint provident consectetur incidunt, nostrum porro earum commodi, ex architecto.</p>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quam minima perspiciatis eos tenetur. Praesentium dolores at quos aperiam sed, sint provident consectetur incidunt, nostrum porro earum commodi, ex architecto.</p>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quam minima perspiciatis eos tenetur. Praesentium dolores at quos aperiam sed, sint provident consectetur incidunt, nostrum porro earum commodi, ex architecto.</p>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quam minima perspiciatis eos tenetur. Praesentium dolores at quos aperiam sed, sint provident consectetur incidunt, nostrum porro earum commodi, ex architecto.</p>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quam minima perspiciatis eos tenetur. Praesentium dolores at quos aperiam sed, sint provident consectetur incidunt, nostrum porro earum commodi, ex architecto.</p>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quam minima perspiciatis eos tenetur. Praesentium dolores at quos aperiam sed, sint provident consectetur incidunt, nostrum porro earum commodi, ex architecto.</p>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quam minima perspiciatis eos tenetur. Praesentium dolores at quos aperiam sed, sint provident consectetur incidunt, nostrum porro earum commodi, ex architecto.</p>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quam minima perspiciatis eos tenetur. Praesentium dolores at quos aperiam sed, sint provident consectetur incidunt, nostrum porro earum commodi, ex architecto.</p>
+    
+  </div>
 <!-- Projects section: Static Layout, Creature, API#1, API#2, Blue Badge, Red Badge -->
 
 <!-- Contact section  -->
