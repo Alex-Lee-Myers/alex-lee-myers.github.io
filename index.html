@@ -4,102 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Normal Bootstrap 5.0 -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"  rel="stylesheet"/>
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+        <!-- Roboto Font | Material Design great font-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"  rel="stylesheet" />
+        <!-- URL Version of MDB5 -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./style.css">
+        <!-- Local Version of MDB5 -->
+        <link href="./mdb/mdb.min.css" rel="stylesheet" />
+        <!-- Personal CSS -->
+        <link rel="stylesheet" href="./style.css">
+      <!-- Tab Logo -->
+      <link rel="icon" href="./images/icoLogo-01.png">
+    <!-- Title -->
     <title>Alex Lee Myers | Web Developer</title>
 </head>
 <body>
 
-<!-- Navbar section -->
-  <!--
+<!-- * Navbar section -->
+<!--
     TODO change color of Navbar in general
     TODO STRECH change color of navbar as you scroll down the page
   -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-scroll " style="z-index: 10;">
-        <div class="container-fluid">
+<!-- * Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-scroll scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="#!"><strong>Alex Lee Myers</strong></a>
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navBarFun"
+      aria-controls="navBarFun" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
 
-            <!-- button for navbar -->
-            <button 
-                class="navbar-toggler" 
-                type="button" 
-                data-mdb-toggle="collapse" 
-                data-mdb-target="#navbarFun"
-                aria-controls="navbarFun" 
-                aria-expanded="false" 
-                aria-label="Toggle navigation"
-                >
-                <i class="fas fa-bars" style="color:#DAEBEE"></i>
-            </button>
+    <div class="collapse navbar-collapse" id="navBarFun">
+      <ul class="navbar-nav me-auto">
 
-                <!-- About Me, Resume, Contact Me quick links -->
-                <div class="collapse navbar-collapse" id="navbarFun">
+        <!-- * ABOUT ME -->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#aboutMe" style="color:#DAEBEE">
+            About Me
+          </a>
+        </li>
 
-                    <!-- Name Brand -->
-                    <a class="navbar-brand nav-link" target="_blank" href="https://github.com/Alex-Lee-Myers/alex-lee-myers.github.io">
-                        <strong>Alex Lee Myers<strong></a>
-                        <!-- TODO Place an image of a logo instead. Needs illustrated. -->
-                    
-                    <!-- About Me, Projects, Resume, and Contact Me -->
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#aboutMe" style="color:#DAEBEE">
-                            About Me
-                        </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#myProjects"  style="color:#DAEBEE">
-                            Projects
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./resume/Alex Myers Resume Doc.docx.pdf" style="color:#DAEBEE">
-                            Resume
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#" style="color:#DAEBEE">
-                            Contact Me
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            
-                <!-- Right align container for Social Media list -->
-                <div class="d-flex align-items-center">
+        <!-- * MY PROJECTS -->
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#myProjects" style="color:#DAEBEE">
+            Projects
+          </a>
+        </li>
 
-                    <!-- Social Media link list -->
-                                <ul class="navbar-nav d-flex flex-row">
-                        <!-- Icons -->
-                        <!-- Github link -->
-                        <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="https://github.com/Alex-Lee-Myers" rel="nofollow" target="_blank">
-                                <i class="fab fa-github-square" style="color:#DAEBEE"></i>
-                            </a>
-                        </li>
-                        <!-- LinkedIn link -->
-                        <li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="https://www.linkedin.com/in/alexanderlmyers/" rel="nofollow" target="_blank">
-                            <i class="fab fa-linkedin" style="color:#DAEBEE""></i>
-                        </a>
-                        </li>
-                        <!-- Twitter link -->
-                        <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="https://twitter.com/AlexLeeMe" rel="nofollow" target="_blank">
-                            <i class="fab fa-twitter" style="color:#DAEBEE"></i>
-                        </a>
-                        </li>
-                    </ul>
+        <!-- * RESUME -->
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="./resume/Alex Myers Resume Doc.docx.pdf" style="color:#DAEBEE">
+            Resume
+          </a>
+        </li>
 
-                </div>
-            <!-- button up top -->
-        </div>
+
+        <!-- * CONTACT ME -->
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#contactMe" style="color:#DAEBEE">
+            Contact Me
+          </a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav d-flex flex-row">
+
+        <!-- * Github link -->
+        <li class="nav-item me-3 me-lg-0">
+          <a class="nav-link" href="https://github.com/Alex-Lee-Myers" rel="nofollow" target="_blank">
+            <i class="fab fa-github-square" style="color:#DAEBEE"></i>
+          </a>
+        </li>
+
+        <!-- * LinkedIn link -->
+        <li class="nav-item me-3 me-lg-0">
+          <a class="nav-link" href="https://www.linkedin.com/in/alexanderlmyers/" rel="nofollow" target="_blank">
+            <i class="fab fa-linkedin" style="color:#DAEBEE"></i>
+          </a>
+        </li>
+
+        <!-- * Twitter link -->
+        <li class="nav-item me-3 me-lg-0">
+          <a class="nav-link" href="https://twitter.com/AlexLeeMe" rel="nofollow" target="_blank">
+            <i class="fab fa-twitter" style="color:#DAEBEE"></i>
+          </a>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>
+<!-- * Navbar -->
 
-<!-- header/landing section -->
+<!-- * header/landing section -->
 
        <!-- 
            TODO add photoshopped out version of myself to stand out OR gradient from left to right on the mask
@@ -109,7 +108,7 @@
            TODO #1 make the text visible. maybe do a mask?
      -->
 
-  <!-- Background image -->
+  <!-- * Background image -->
   <div
        id="intro"
        class="bg-image"
@@ -139,7 +138,7 @@
   </div>
 </header>
 
-<!-- Break between sections -->
+<!-- * Break between sections -->
 
 <section>
 
@@ -153,9 +152,9 @@
   
 </section>
 
-<!-- /Break between sections -->
+<!-- * /Break between sections -->
 
-<!-- About Me Section -->
+<!-- * About Me Section -->
   <div class="card-group">
     <div class="card" style="background-color: #fcedda;">
       <img
@@ -197,11 +196,14 @@
       </div>
     </div>
   </div>
-<!-- Projects section: Static Layout, Creature, API#1, API#2, Blue Badge, Red Badge -->
+<!-- * Projects section: Static Layout, Creature, API#1, API#2, Blue Badge, Red Badge -->
 <div class="container-fluid"  style="background: linear-gradient(
   180deg,
-  rgba(255, 81, 38, 0.89),
-  rgba(255, 206, 194, 0) 20%
+  rgba(252, 237, 218, 1) 0%,
+  rgba(255, 206, 194, 0) 20%,
+  rgba(255, 206, 194, 0) 80%,
+  rgba(252, 237, 218, 0) 80%,
+  rgba(255, 206, 194, 1) 100%
 );">
   <!--
     TODO add links to each project
@@ -213,7 +215,7 @@
       TODO #5 |
   -->
   <section id="myProjects">
-    <h3 class="text-center pt-5">My projects</h3>
+    <h3 class="text-center pt-5">Project Portfolio</h3>
 
     <p class="text-center mb-5 mx-auto w-responsive">
       Here you can see my projects with web development ranging from incorporating API calls in a website, this very Portfolio utilizing Material Design Bootstrap, to utilizing React in a small development group. Complimenting this is experiences in design, technical documentation creation, and mentoring consultants at my current position. Beyond that, a plethora of hard and soft-skills put to the test in crunch-time situations with a team that presents their multi-day event to over 500 people with tens of thousands watching online. 
@@ -249,12 +251,12 @@
               aria-controls="all" aria-selected="false">All</a>
           </li>
         </ul>
-        <!-- Pills navs -->
+        <!-- * Pills navs -->
 
-        <!-- Pills content -->
+        <!-- * Pills content -->
         <div class="tab-content pt-3" id="servicesContent">
 
-          <!-- WebDev Tab -->
+          <!-- * WebDev Tab -->
           <div class="tab-pane fade show active" id="webdev" role="tabpanel" aria-labelledby="webdev-tab">
             <div class="row">
 
@@ -326,7 +328,7 @@
             </div>
           </div>
 
-          <!-- Design Tab -->
+          <!-- * Design Tab -->
 
           <div class="tab-pane fade" id="Design" role="tabpanel" aria-labelledby="Design-tab">
             <div class="row">
@@ -389,7 +391,7 @@
             </div>
           </div>
 
-          <!-- TechDoc Tab -->
+          <!-- * TechDoc Tab -->
 
           <div class="tab-pane fade" id="techdoc" role="tabpanel" aria-labelledby="techdoc-tab">
             <div class="row">
@@ -408,7 +410,7 @@
             </div>
           </div>
 
-          <!-- EventOrg Tab -->
+          <!-- * EventOrg Tab -->
 
           <div class="tab-pane fade" id="eventorg" role="tabpanel" aria-labelledby="eventorg-tab">
             <div class="row">
@@ -458,7 +460,7 @@
             </div>
           </div>
 
-        <!-- All Tab -->
+        <!-- * All Tab -->
 
         <div class="tab-pane fade" id="all" role="tabpanel" aria-labelledby="all-tab">
           <div class="row">
@@ -509,17 +511,77 @@
   <!--Section End-->
 </div>
 
-<!-- Contact section  -->
+<!-- * Contact Form section  -->
 
 <!-- TODO add forms based on video for FormSpring. -->
+<!-- Section: Content -->
+<section style="background: linear-gradient(
+  180deg,
+  rgba(255, 206, 194, 1),
+  rgba(255, 206, 194, 0) 20%
+);">
 
-<!-- Footer -->
+<!-- Section: Content -->
+  <div class="container shadow-5">
+
+    <!--Section: Design Block-->
+    <section class="text-center" id="contactMe">
+  
+      <h3 class="mb-3">Let's get in touch.</h3>
+      <p>Get a hold of me by filling in the short form below and I will get back to you as soon as possible. Thank you!</p>
+  
+      <hr class="my-4" />
+  
+      <div class="row d-flex justify-content-center pt-2">
+  
+        <div class="col-md-6 mb-4">
+  
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mvodydwd"
+          method="post">
+            <fieldset id="fs-frm-inputs">
+
+              <!-- NAME: Where they put their NAME -->
+              <div class="form-outline mb-4">
+                <input type="text" id="form4Example1" class="form-control" name="name"/>
+                <label class="form-label" for="form4Example1">Name</label>
+              </div>
+    
+              <!-- EMAIL: Where they put their EMAIL -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form4Example2" class="form-control" name="_replyto"/>
+                <label class="form-label" for="form4Example2">Email address</label>
+              </div>
+    
+              <!-- MESSAGE: What they put in the MESSAGE -->
+              <div class="form-outline mb-4">
+                <textarea class="form-control" id="form4Example3" rows="4" name="message"></textarea>
+                <label class="form-label" for="form4Example3">Message</label>
+              </div>
+    
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary btn-lg" id="sendButton">
+                Send
+              </button>
+
+          </fieldset>
+          </form>
+  
+        </div>
+  
+      </div>
+  
+    </section>
+  
+  </div>
+</section>
+
+<!-- * Footer -->
 
 <footer class="text-center text-white" style="background-color: #f1f1f1;">
 
-  <div class="container pt-4">
+  <div class="container">
 
-    <section class="mb-4">
+    <section>
 
       <!-- Home -->
       <a

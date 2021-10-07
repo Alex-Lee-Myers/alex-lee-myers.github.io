@@ -1,22 +1,31 @@
-/* Color of the links BEFORE scroll */
-.navbar-scroll .nav-link,
-.navbar-scroll .navbar-toggler-icon {
+@media (max-width: 991px) {
+  .navbar-scroll {
+    background-color: #ff5126d5;
+  }
+}
+.navbar-scroll .navbar-brand {
   color: #fff;
 }
 
-/* Color of the links AFTER scroll */
-.navbar-scrolled .nav-link,
-.navbar-scrolled .navbar-toggler-icon {
-  color: #4f4f4f;
-}
-
-/* Color of the navbar AFTER scroll */
 .navbar-scrolled {
-  background-color: #FF5126;
+  background-color: #ff5126ab;
 }
 
-/* An optional height of the navbar AFTER scroll */
-.navbar.navbar-scroll.navbar-scrolled {
-  padding-top: 5px;
-  padding-bottom: 5px;
+.navbar-scrolled .navbar-brand,
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars {
+  color: #fff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-item.show .nav-link {
+  background-color: #ff5126ab;
+}
+/* Hover effects on the NavBar Links */
+.nav-item .nav-link:hover {
+  color: #b6d7de;
+}
+
+#sendButton {
+  background-color: #FF5126;
 }
