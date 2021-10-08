@@ -4,14 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Normal Bootstrap 5.0 -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <!-- Font Awesome -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
         <!-- Roboto Font | Material Design great font-->
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"  rel="stylesheet" />
-        <!-- URL Version of MDB5 -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
         <!-- Local Version of MDB5 -->
         <link href="./mdb/mdb.min.css" rel="stylesheet" />
         <!-- Personal CSS -->
@@ -24,14 +20,10 @@
 <body>
 
 <!-- * Navbar section -->
-<!--
-    TODO change color of Navbar in general
-    TODO when hovering over links, they change color.
-    TODO STRECH change color of navbar as you scroll down the page
-  -->
+<!-- TODO's are all done for this section  -->
 <!-- * Navbar -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-scroll scrolling-navbar">
-  <div class="container">
+<nav class="navbar fixed-top navbar-expand-lg navbar-scroll">
+  <div class="container-fluid">
     <a class="navbar-brand" href="#!"><strong>Alex Lee Myers</strong></a>
     <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navBarFun"
       aria-controls="navBarFun" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,21 +35,21 @@
 
         <!-- * ABOUT ME -->
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#aboutMe" style="color:#DAEBEE">
+          <a class="nav-link active" aria-current="page" href="#aboutMe" style="color:#fff">
             About Me
           </a>
         </li>
 
         <!-- * MY PROJECTS -->
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#myProjects" style="color:#DAEBEE">
+          <a class="nav-link" aria-current="page" href="#myProjects" style="color:#fff">
             Projects
           </a>
         </li>
 
         <!-- * RESUME -->
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="./resume/Alex Myers Resume Doc.docx.pdf" style="color:#DAEBEE">
+          <a class="nav-link" aria-current="page" href="./resume/Alex Myers Resume Doc.docx.pdf" style="color:#fff">
             Resume
           </a>
         </li>
@@ -65,7 +57,7 @@
 
         <!-- * CONTACT ME -->
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#contactMe" style="color:#DAEBEE">
+          <a class="nav-link" aria-current="page" href="#contactMe" style="color:#fff">
             Contact Me
           </a>
         </li>
@@ -76,36 +68,31 @@
         <!-- * Github link -->
         <li class="nav-item me-3 me-lg-0">
           <a class="nav-link" href="https://github.com/Alex-Lee-Myers" rel="nofollow" target="_blank">
-            <i class="fab fa-github-square" style="color:#DAEBEE"></i>
+            <i class="fab fa-github-square" style="color:#fff"></i>
           </a>
         </li>
 
         <!-- * LinkedIn link -->
         <li class="nav-item me-3 me-lg-0">
           <a class="nav-link" href="https://www.linkedin.com/in/alexanderlmyers/" rel="nofollow" target="_blank">
-            <i class="fab fa-linkedin" style="color:#DAEBEE"></i>
+            <i class="fab fa-linkedin" style="color:#fff"></i>
           </a>
         </li>
 
         <!-- * Twitter link -->
         <li class="nav-item me-3 me-lg-0">
           <a class="nav-link" href="https://twitter.com/AlexLeeMe" rel="nofollow" target="_blank">
-            <i class="fab fa-twitter" style="color:#DAEBEE"></i>
+            <i class="fab fa-twitter" style="color:#fff"></i>
           </a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-<!-- * Navbar -->
+<!-- * END OF Navbar -->
 
-<!-- * header/landing section -->
-
-       <!-- 
-           TODO #1 make it so on phone my portrait is visible
-           TODO #2 make the text more visible with a shadow.
-           TODO #3 highlight Resume when hovered on. Switch background to white and the text+outline turns orange
-     -->
+<!-- * START OF header/landing section -->
+      <!--     TODO's are all done for this section. -->
 
   <!-- * Background image -->
   <div
@@ -120,15 +107,15 @@
     <div class="mask text-white" style="
     background: linear-gradient(
       45deg,
-      rgba(255, 81, 38, 0.89),
-      rgba(255, 206, 194, 0) 60%
+      rgba(0, 0, 0, 0.795) 30%,
+      rgba(255, 206, 194, 0) 70%
     );"
     >
       <div class="container d-flex align-items-center text-left h-100">
         <div>
-          <h1>.AlexLeeMyers</h1>
-          <h4 class="mb-3">I turn ideas into an accessible website.</h4>
-          <a class="btn btn-outline-light btn-lg" href="./resume/Alex Myers Resume Doc.docx.pdf" role="button" download
+          <h1 class ="fw-bold">.AlexLeeMyers</h1>
+          <h4 class="mb-3 fw-bold">I turn ideas into an accessible website.</h4>
+          <a class="btn btn-outline-light btn-lg fw-bold" data-mdb-toggle="animation" data-mdb-animation-reset="false" data-mdb-animation="slide-out-right" id="resumeButton" href="./resume/Alex Myers Resume Doc.docx.pdf" role="button" download
           >Resume</a
         >
         </div>
@@ -301,7 +288,6 @@
                   Studio Ghibli Search - API Project
                 </p>
               </div>
-            </div>
 
             <div class="row">
 
@@ -313,6 +299,17 @@
                 </div>
                 <p class="text-uppercase text-center font-weight-bold my-4">
                   Giphy - API Project
+                </p>
+              </div>
+              
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://github.com/Alex-Lee-Myers/alex-lee-myers.github.io">
+                    <img src="./pillspics/portfolioGit.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Portfolio | Github
                 </p>
               </div>
 
@@ -327,6 +324,18 @@
                 </p>
               </div>
 
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://replit.com/@Alex-Lee-Myers">
+                    <img src="./pillspics/Replits.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Replit's
+                </p>
+              </div>
+
+            </div>
             </div>
           </div>
 
@@ -466,43 +475,217 @@
 
         <div class="tab-pane fade" id="all" role="tabpanel" aria-labelledby="all-tab">
           <div class="row">
-
-            <div class="col-md-6 col-lg-3 mb-5">
+            <!-- * WEB DEV STUFF -->
+            <div class="col-md-6 col-lg-3 mb-4">
               <div class="bg-image hover-zoom shadow-1-strong rounded">
-                <img src="https://mdbootstrap.com/img/Photos/Others/project1.jpg" class="img-fluid" />
+                <img src="./pillspics/bluebadge.png" class="img-fluid" />
               </div>
               <p class="text-uppercase text-center font-weight-bold my-4">
-                Lorem ipsum dolor sit amet
+                Blue Badge
               </p>
             </div>
 
-            <div class="col-md-6 col-lg-3 mb-5">
+            <div class="col-md-6 col-lg-3 mb-4">
               <div class="bg-image hover-zoom shadow-1-strong rounded">
-                <img src="https://mdbootstrap.com/img/Photos/Others/project7.jpg" class="img-fluid" />
+                <img src="./pillspics/redbadge.png" class="img-fluid" />
               </div>
               <p class="text-uppercase text-center font-weight-bold my-4">
-                Lorem ipsum dolor sit amet
+                Red Badge
               </p>
             </div>
 
-            <div class="col-md-6 col-lg-3 mb-5">
+            <div class="col-md-6 col-lg-3 mb-4">
               <div class="bg-image hover-zoom shadow-1-strong rounded">
-                <img src="https://mdbootstrap.com/img/Photos/Others/project8.jpg" class="img-fluid" />
+                <a href="https://alex-lee-myers.github.io/staticLayout/"> 
+                  <img src="./pillspics/StaticLayout.png" class="img-fluid" />
+                </a>
               </div>
               <p class="text-uppercase text-center font-weight-bold my-4">
-                Lorem ipsum dolor sit amet
+                Static Layout Mockup
               </p>
             </div>
 
-            <div class="col-md-6 col-lg-3 mb-5">
+            <div class="col-md-6 col-lg-3 mb-4">
               <div class="bg-image hover-zoom shadow-1-strong rounded">
-                <img src="https://mdbootstrap.com/img/Photos/Others/project2.jpg" class="img-fluid" />
+                <a href="https://alex-lee-myers.github.io/staticLayout/">
+                  <img src="./pillspics/ApiChallengeOne.png" class="img-fluid" />
+                </a>
               </div>
               <p class="text-uppercase text-center font-weight-bold my-4">
-                Lorem ipsum dolor sit amet
+                Studio Ghibli Search - API Project
+              </p>
+            </div>
+          </div><!-- * Row 1 end -->
+          <div class="row">
+
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="bg-image hover-zoom shadow-1-strong rounded">
+                <a href="https://alex-lee-myers.github.io/staticLayout/">
+                <img src="./pillspics/giphyAPI.png" class="img-fluid" />
+                </a>  <!-- TODO change to GiphyAPI link -->
+              </div>
+              <p class="text-uppercase text-center font-weight-bold my-4">
+                Giphy - API Project
+              </p>
+            </div>
+            
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="bg-image hover-zoom shadow-1-strong rounded">
+                <a href="https://github.com/Alex-Lee-Myers/alex-lee-myers.github.io">
+                  <img src="./pillspics/portfolioGit.png" class="img-fluid" />
+                </a>
+              </div>
+              <p class="text-uppercase text-center font-weight-bold my-4">
+                Portfolio | Github
               </p>
             </div>
 
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="bg-image hover-zoom shadow-1-strong rounded">
+                <a href="https://codepen.io/ManagingLions/pen/VwbJqyW">
+                  <img src="./pillspics/yoshiCreature.png" class="img-fluid" />
+                </a>
+              </div>
+              <p class="text-uppercase text-center font-weight-bold my-4">
+                Yoshi - CSS Creature
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="bg-image hover-zoom shadow-1-strong rounded">
+                <a href="https://replit.com/@Alex-Lee-Myers">
+                  <img src="./pillspics/Replits.png" class="img-fluid" />
+                </a>
+              </div>
+              <p class="text-uppercase text-center font-weight-bold my-4">
+                Replit's
+              </p>
+            </div>
+          </div> <!--  *ROW 2 END -->
+              <!-- * DESIGN: START ROW -->
+              <div class="row">
+              
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://www.youtube.com/watch?v=RzKxN-FcPsQ">
+                      <img src="./pillspics/FB3trailer.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 3 Trailer
+                  </p>
+                </div>
+  
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://www.youtube.com/watch?v=hY8vyVdCW5c">
+                      <img src="./pillspics/FB4trailer.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 4 Announcement Trailer
+                  </p>
+                </div>
+  
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://www.youtube.com/watch?v=UJFyp6BrPAw">
+                      <img src="./pillspics/FB4CompTrailer.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 4 Compendium Trailer
+                  </p>
+                </div>
+  
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://www.youtube.com/watch?v=UBPQYiamfdI">
+                      <img src="./pillspics/FB5trailer.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 5 Announcement Trailer
+                  </p>
+                </div>
+              </div> <!-- * ROW 3 END -->
+               <div class="row"> <!-- * ROW 4 BEGIN -->
+
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://alex-lee-myers.github.io/staticLayout/">
+                      <img src="./pillspics/4thFloorPortraits.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Wells Library UITS Signage
+                  </p>
+                </div>
+  
+                <!-- * DESIGN END -->
+                <!-- * TECHDOC BEGIN -->
+
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://kb.iu.edu/d/bgko">
+                      <img src="./pillspics/PowerpointPlotterInstructions.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Knowledge Base Plotter Instructions
+                  </p>
+                </div>
+
+              <!-- * TECHDOC END -->
+              <!-- * EVENTORG BEGIN -->
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <img src="./pillspics/BtownBeatdown.png" class="img-fluid" />
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  B-Town Beatdown Weekly Series
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://smash.gg/tournament/full-bloom-3/details">
+                    <img src="./pillspics/FB3.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Full Bloom 3
+                </p>
+              </div>
+
+            </div> <!-- * ROW 4 END -->
+            <div class="row"> <!-- * ROW 5 BEGIN -->            
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://smash.gg/tournament/full-bloom-4">
+                    <img src="./pillspics/FB4trailer.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Full Bloom 4
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://smash.gg/tournament/full-bloom-5/details">
+                    <img src="./pillspics/FB5.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Full Bloom 5
+                </p>
+              </div>
+
+            </div> <!-- * ROW 5 END, Can fit 2 more-->
+            </div>
           </div>
         </div>
 
@@ -635,8 +818,7 @@
 </footer>
 
 <!-- Bootstrap, MDB, and Javascript Attached Here -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
-    <script src="apps.js"></script>
+    <script type="text/javascript" src="./mdb/mdb.min.js"></script>
+    <script type="text/javascript" src="./apps.js"></script>
 </body>
 </html>
