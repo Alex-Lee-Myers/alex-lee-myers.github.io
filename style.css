@@ -1,0 +1,46 @@
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+.navbar-scroll {
+  background-color:  rgba(255, 81, 38, 0.459);
+}
+.navbar-scrolled {
+  background-color: rgba(255, 81, 38, 0.938);
+}
+.navbar-scrolled .navbar-brand,
+.navbar-scrolled .nav-link,
+.navbar-scrolled .container-fluid .collapse .navbar-nav .nav-item,
+.navbar-scrolled .fa-bars {
+  color: #323643;
+}
+@media (max-width: 700px) {
+.navbar-scroll {
+  background-color: rgba(255, 81, 38, 0.938);
+  }
+.bg-image {
+  background-image: url('./images/MobilePortraitAlt.jpg') !important;
+  }
+.mask > .container {
+  margin-top: -120px;
+}
+}
+
+/* Hover effects on the NavBar Links */
+.nav-link:hover {
+  color: #DAEBEE !important;
+}
+
+.nav-item:hover {
+  color: #DAEBEE !important;
+}
+
+#resumeButton:hover{
+  background-color: #FF5126;
+  color:#DAEBEE;
+}
+
+#sendButton {
+  background-color: #FF5126;
+}
+

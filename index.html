@@ -4,126 +4,819 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"  rel="stylesheet"/>
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./style.css">
+    <meta property="og:image" content="url(./images/CurrentPosition.png)" />
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+        <!-- Roboto Font | Material Design great font-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"  rel="stylesheet" />
+        <!-- Local Version of MDB5 -->
+        <link href="./mdb/mdb.min.css" rel="stylesheet" />
+        <!-- Personal CSS -->
+        <link rel="stylesheet" href="./style.css">
+      <!-- Tab Logo -->
+      <link rel="icon" href="./images/icoLogo-01.png">
+    <!-- Title -->
     <title>Alex Lee Myers | Web Developer</title>
 </head>
 <body>
 
-<!-- Navbar section -->
+<!-- * Navbar section -->
+<!-- TODO's are all done for this section  -->
+<!-- * Navbar -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-scroll">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#!"><strong>Alex Lee Myers</strong></a>
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navBarFun"
+      aria-controls="navBarFun" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
 
-    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 10;">
-        <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navBarFun">
+      <ul class="navbar-nav me-auto">
 
-            <!-- button for navbar -->
-            <button 
-                class="navbar-toggler" 
-                type="button" 
-                data-mdb-toggle="collapse" 
-                data-mdb-target="#navbarFun"
-                aria-controls="navbarFun" 
-                aria-expanded="false" 
-                aria-label="Toggle navigation"
-                >
-                <i class="fas fa-bars"></i>
-            </button>
+        <!-- * ABOUT ME -->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#aboutMe" style="color:#fff">
+            About Me
+          </a>
+        </li>
 
-                <!-- About Me, Resume, Contact Me quick links -->
-                <div class="collapse navbar-collapse" id="navbarFun">
+        <!-- * MY PROJECTS -->
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#myProjects" style="color:#fff">
+            Projects
+          </a>
+        </li>
 
-                    <!-- Name Brand -->
-                    <a class="navbar-brand nav-link" target="_blank" href="https://github.com/Alex-Lee-Myers">
-                        <strong>Alex Lee Myers<strong></a>
-                    
-                    <!-- About Me, Projects, Resume, and Contact Me -->
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#aboutMe">
-                            About Me
-                        </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" rel="nofollow" target="_blank">
-                            Projects
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" target="_blank">
-                            Resume
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" target="_blank">
-                            Contact Me
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            
-                <!-- Right align container for Social Media list -->
-                <div class="d-flex align-items-center">
+        <!-- * RESUME -->
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="./resume/Alex Myers Resume Doc.docx.pdf" style="color:#fff" target="_blank"```  >
+            Resume
+          </a>
+        </li>
 
-                    <!-- Social Media link list -->
-                                <ul class="navbar-nav d-flex flex-row">
-                        <!-- Icons -->
-                        <!-- Github link -->
-                        <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="https://github.com/Alex-Lee-Myers" rel="nofollow" target="_blank">
-                                <i class="fab fa-github-square"></i>
-                            </a>
-                        </li>
-                        <!-- LinkedIn link -->
-                        <li class="nav-item me-3 me-lg-0">
-                        <a class="nav-link" href="https://www.linkedin.com/in/alexanderlmyers/" rel="nofollow" target="_blank">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        </li>
-                        <!-- Twitter link -->
-                        <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="https://twitter.com/AlexLeeMe" rel="nofollow" target="_blank">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        </li>
-                    </ul>
 
-                </div>
-            <!-- button up top -->
-        </div>
+        <!-- * CONTACT ME -->
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#contactMe" style="color:#fff">
+            Contact Me
+          </a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav d-flex flex-row">
+
+        <!-- * Github link -->
+        <li class="nav-item me-3 me-lg-0">
+          <a class="nav-link" href="https://github.com/Alex-Lee-Myers" rel="nofollow" target="_blank">
+            <i class="fab fa-github-square" style="color:#fff"></i>
+          </a>
+        </li>
+
+        <!-- * LinkedIn link -->
+        <li class="nav-item me-3 me-lg-0">
+          <a class="nav-link" href="https://www.linkedin.com/in/alexanderlmyers/" rel="nofollow" target="_blank">
+            <i class="fab fa-linkedin" style="color:#fff"></i>
+          </a>
+        </li>
+
+        <!-- * Twitter link -->
+        <li class="nav-item me-3 me-lg-0">
+          <a class="nav-link" href="https://twitter.com/AlexLeeMe" rel="nofollow" target="_blank">
+            <i class="fab fa-twitter" style="color:#fff"></i>
+          </a>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>
+<!-- * END OF Navbar -->
 
-<!-- header/landing section -->
+<!-- * START OF header/landing section -->
+      <!--     TODO's are all done for this section. -->
 
-    <section class="bg-dark text-light p-5 text-center">
-        <div class="container">
-            <div class="d-sm-flex"> <!-- flexbox = d-flex | d-sm means when it reaches small size, it stops using flexbox-->
-                <div class="bg-image" style="
-                background-image: url('./images/CoverPhoto.jpg');
-                height: 100vh;
-                ">
-                    <div>
-                        <h1>Web Developer</h1>
-                    </div>
-                    <!-- <img class="img-fluid w-100" src="./images/CoverPhoto.jpg" alt="" /> img-fluid keeps image within container, size class of w-50 is half size. h-50 would do too. -->
-                </div>
-            </div>
+  <!-- * Background image -->
+  <div
+       id="intro"
+       class="bg-image"
+       style="
+              background-image: url('./images/CoverPhoto.jpg');
+              height: 100vh;
+              "
+       >
+
+    <div class="mask text-white" style="
+    background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.795) 30%,
+      rgba(255, 206, 194, 0) 70%
+    );"
+    >
+      <div class="container d-flex align-items-center text-left h-100">
+        <div>
+          <h1 class ="fw-bold">.AlexLeeMyers</h1>
+          <h4 class="mb-3 fw-bold">I turn ideas into accessible websites.</h4>
+          <a class="btn btn-outline-light btn-lg fw-bold" data-mdb-toggle="animation" data-mdb-animation-reset="false" data-mdb-animation="slide-out-right" id="resumeButton" href="./resume/Alex Myers Resume Doc.docx.pdf" role="button" download
+          >Resume</a
+        >
         </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- * Break between sections -->
+
+<section>
+
+    <div style="background-color: #B6D7DE;">
+      <div class="d-flex align-items-center justify-content-center h-100 py-5" id="aboutMe">
+        <div class="text-center">
+          <h2 class="mb-1">a <Span style="font-size:smaller">little</span> introduction.</h2>
+        </div>
+      </div>
+    </div>
+  
+</section>
+
+<!-- * /Break between sections -->
+
+<!-- * About Me Section -->
+  <div class="card-group">
+    <div class="card" style="background-color: #fcedda;">
+      <img
+        src="./images/AboutMe.png"
+        class="card-img-top"
+        alt="About Me section."
+      />
+      <div class="card-body">
+        <h5 class="card-title">About Me</h5>
+        <p class="card-text">
+          Hello world! I'm an Indiana-based full-stack web developer who comes molded from background experiences involving time-intensive problem solving, vigilant attention to detail, and constant collaboration. 
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <img
+        src="./images/CurrentPosition.png"
+        class="card-img-top"
+        alt="Current Position"
+      />
+      <div class="card-body" style="background-color: #fcedda;">
+        <h5 class="card-title">Current Position</h5>
+        <p class="card-text"> <!-- TODO "Learn more" clickable card. Expands card into a more thorough description of myself.-->
+          Presently, I work full-time as the Information Technology Coordinator at Indiana University. My day-to-day requires active technical troubleshooting, constant supervision of up to 7 consultants at any given time, and managing an ecosystem of over 2,000 devices.
+        </p>
+      </div>
+    </div>
+    <div class="card" style="background-color: #fcedda;">
+      <img
+        src="./images/FutureProspects.png"
+        class="card-img-top"
+        alt="Future Prospects"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Future Prospects</h5>
+         <p class="card-text"> 
+          My next goal in my career is to become a full-time web developer. I truly believe my past career experiences gave me a baseline of skills that directly translate into being a fast-learner when it comes to this field.
+        </p>
+      </div>
+    </div>
+  </div>
+<!-- * Projects section: Static Layout, Creature, API#1, API#2, Blue Badge, Red Badge -->
+<div class="container-fluid"  style="background: linear-gradient(
+  180deg,
+  rgba(252, 237, 218, 1) 0%,
+  rgba(255, 206, 194, 0) 20%,
+  rgba(255, 206, 194, 0) 80%,
+  rgba(252, 237, 218, 0) 80%,
+  rgba(255, 206, 194, 1) 100%
+);">
+  <!--
+    TODO After Oct 9:
+      TODO #1 | Clicking a project link takes you to a overview page with descriptions of the process. 
+      TODO #2 | Center everything if not perfectly 4 in a row on desktop.
+      TODO #3 | Below clicked pill, put header for clickable link that describe more thoroughly about the overall category.
+      TODO #4 | Make all videos open up inside the website.
+  -->
+  <section id="myProjects">
+    <h3 class="text-center pt-5">Project Portfolio</h3>
+
+    <p class="text-center mb-5 mx-auto w-responsive">
+      Here you can see my web development projects, ranging from incorporating API calls in a website, utilizing React in a small development group, and designing this Portfolio page via Material Design Bootstrap. Complimenting this is experiences in design, technical documentation creation, and mentoring consultants at my current position. Additionally, my skills as a leader and technical expert are frequently put to the test in crunch-time situations when managing a team that delivers multi-day events to over 500 in-person audience members and tens of thousands of virtual participants.
+    </p>
+
+    <div class="row">
+      <div class="col-12">
+        <!-- Pills navs -->
+        <ul class="nav nav-pills mb-3 mx-n2 mt-n2 justify-content-center" id="issuesTabs" role="tablist">
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="webdev-tab" data-mdb-toggle="pill" href="#webdev" role="tab"
+              aria-controls="webdev" aria-selected="true">Web Development</a>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="Design-tab" data-mdb-toggle="pill" href="#Design" role="tab"
+              aria-controls="Design" aria-selected="false">Design</a>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="techdoc-tab" data-mdb-toggle="pill" href="#techdoc" role="tab"
+              aria-controls="techdoc" aria-selected="false">Technical Documentation</a>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="eventorg-tab" data-mdb-toggle="pill" href="#eventorg" role="tab"
+              aria-controls="eventorg" aria-selected="false">Event Organization</a>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="all-tab" data-mdb-toggle="pill" href="#all" role="tab"
+              aria-controls="all" aria-selected="false">All</a>
+          </li>
+        </ul>
+        <!-- * Pills navs -->
+
+        <!-- * Pills content -->
+        <div class="tab-content pt-3" id="servicesContent">
+
+          <!-- * WebDev Tab -->
+          <div class="tab-pane fade show active" id="webdev" role="tabpanel" aria-labelledby="webdev-tab">
+            <div class="row">
+
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <img src="./pillspics/bluebadge.png" class="img-fluid" />
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Blue Badge
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <img src="./pillspics/redbadge.png" class="img-fluid"/>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Red Badge
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://alex-lee-myers.github.io/staticLayout/" target="_blank"> 
+                    <img src="./pillspics/StaticLayout.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Static Layout Mockup
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://alex-lee-myers.github.io/apiChallenge1/" target="_blank">
+                    <img src="./pillspics/ApiChallengeOne.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Studio Ghibli Search - API Project
+                </p>
+              </div>
+
+            <div class="row">
+
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://apichallenge2-67b79.web.app/" target="_blank">
+                  <img src="./pillspics/giphyAPI.png" class="img-fluid" />
+                  </a> 
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Giphy - API Project
+                </p>
+              </div>
+              
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://github.com/Alex-Lee-Myers/alex-lee-myers.github.io" target="_blank">
+                    <img src="./pillspics/portfolioGit.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Portfolio | Github
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://codepen.io/ManagingLions/pen/VwbJqyW" target="_blank">
+                    <img src="./pillspics/yoshiCreature.png" class="img-fluid"/>
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Yoshi - CSS Creature
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-4">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://replit.com/@Alex-Lee-Myers" target="_blank">
+                    <img src="./pillspics/Replits.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Replit's
+                </p>
+              </div>
+
+            </div>
+            </div>
+          </div>
+
+          <!-- * Design Tab -->
+
+          <div class="tab-pane fade" id="Design" role="tabpanel" aria-labelledby="Design-tab">
+            <div class="row">
+              
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://www.youtube.com/watch?v=RzKxN-FcPsQ" target="_blank">
+                    <img src="./pillspics/FB3trailer.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Full Bloom 3 Trailer
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://www.youtube.com/watch?v=hY8vyVdCW5c" target="_blank">
+                    <img src="./pillspics/FB4trailer.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Full Bloom 4 Announcement Trailer
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://www.youtube.com/watch?v=UJFyp6BrPAw" target="_blank">
+                    <img src="./pillspics/FB4CompTrailer.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Full Bloom 4 Compendium Trailer
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://www.youtube.com/watch?v=UBPQYiamfdI" target="_blank">
+                    <img src="./pillspics/FB5trailer.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Full Bloom 5 Announcement Trailer
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://alex-lee-myers.github.io/staticLayout/" target="_blank">
+                    <img src="./pillspics/4thFloorPortraits.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Wells Library UITS Signage
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- * TechDoc Tab -->
+
+          <div class="tab-pane fade" id="techdoc" role="tabpanel" aria-labelledby="techdoc-tab">
+            <div class="row">
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://kb.iu.edu/d/bgko" target="_blank">
+                    <img src="./pillspics/PowerpointPlotterInstructions.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Knowledge Base Plotter Instructions
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- * EventOrg Tab -->
+
+          <div class="tab-pane fade" id="eventorg" role="tabpanel" aria-labelledby="eventorg-tab">
+            <div class="row">
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <img src="./pillspics/BtownBeatdown.png" class="img-fluid" />
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  B-Town Beatdown Weekly Series
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://smash.gg/tournament/full-bloom-3/details" target="_blank">
+                    <img src="./pillspics/FB3.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Full Bloom 3
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://smash.gg/tournament/full-bloom-4" target="_blank">
+                    <img src="./pillspics/FB4trailer.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Full Bloom 4
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://smash.gg/tournament/full-bloom-5/details" target="_blank">
+                    <img src="./pillspics/FB5.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Full Bloom 5
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+        <!-- * All Tab -->
+
+        <div class="tab-pane fade" id="all" role="tabpanel" aria-labelledby="all-tab">
+          <div class="row">
+            <!-- * WEB DEV STUFF -->
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="bg-image hover-zoom shadow-1-strong rounded">
+                <img src="./pillspics/bluebadge.png" class="img-fluid" />
+              </div>
+              <p class="text-uppercase text-center font-weight-bold my-4">
+                Blue Badge
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="bg-image hover-zoom shadow-1-strong rounded">
+                <img src="./pillspics/redbadge.png" class="img-fluid" />
+              </div>
+              <p class="text-uppercase text-center font-weight-bold my-4">
+                Red Badge
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="bg-image hover-zoom shadow-1-strong rounded">
+                <a href="https://alex-lee-myers.github.io/staticLayout/" target="_blank"> 
+                  <img src="./pillspics/StaticLayout.png" class="img-fluid" />
+                </a>
+              </div>
+              <p class="text-uppercase text-center font-weight-bold my-4">
+                Static Layout Mockup
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="bg-image hover-zoom shadow-1-strong rounded">
+                <a href="https://alex-lee-myers.github.io/apiChallenge1/" target="_blank">
+                  <img src="./pillspics/ApiChallengeOne.png" class="img-fluid" />
+                </a>
+              </div>
+              <p class="text-uppercase text-center font-weight-bold my-4">
+                Studio Ghibli Search - API Project
+              </p>
+            </div>
+          </div><!-- * Row 1 end -->
+          <div class="row">
+
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="bg-image hover-zoom shadow-1-strong rounded">
+                <a href="https://apichallenge2-67b79.web.app/" target="_blank">
+                <img src="./pillspics/giphyAPI.png" class="img-fluid" />
+                </a>
+              </div>
+              <p class="text-uppercase text-center font-weight-bold my-4">
+                Giphy - API Project
+              </p>
+            </div>
+            
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="bg-image hover-zoom shadow-1-strong rounded">
+                <a href="https://github.com/Alex-Lee-Myers/alex-lee-myers.github.io" target="_blank">
+                  <img src="./pillspics/portfolioGit.png" class="img-fluid" />
+                </a>
+              </div>
+              <p class="text-uppercase text-center font-weight-bold my-4">
+                Portfolio | Github
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="bg-image hover-zoom shadow-1-strong rounded">
+                <a href="https://codepen.io/ManagingLions/pen/VwbJqyW" target="_blank">
+                  <img src="./pillspics/yoshiCreature.png" class="img-fluid" />
+                </a>
+              </div>
+              <p class="text-uppercase text-center font-weight-bold my-4">
+                Yoshi - CSS Creature
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="bg-image hover-zoom shadow-1-strong rounded">
+                <a href="https://replit.com/@Alex-Lee-Myers" target="_blank">
+                  <img src="./pillspics/Replits.png" class="img-fluid" />
+                </a>
+              </div>
+              <p class="text-uppercase text-center font-weight-bold my-4">
+                Replit's
+              </p>
+            </div>
+          </div> <!--  *ROW 2 END -->
+              <!-- * DESIGN: START ROW -->
+              <div class="row">
+              
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://www.youtube.com/watch?v=RzKxN-FcPsQ" target="_blank">
+                      <img src="./pillspics/FB3trailer.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 3 Trailer
+                  </p>
+                </div>
+  
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://www.youtube.com/watch?v=hY8vyVdCW5c" target="_blank">
+                      <img src="./pillspics/FB4trailer.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 4 Announcement Trailer
+                  </p>
+                </div>
+  
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://www.youtube.com/watch?v=UJFyp6BrPAw" target="_blank">
+                      <img src="./pillspics/FB4CompTrailer.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 4 Compendium Trailer
+                  </p>
+                </div>
+  
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://www.youtube.com/watch?v=UBPQYiamfdI" target="_blank">
+                      <img src="./pillspics/FB5trailer.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 5 Announcement Trailer
+                  </p>
+                </div>
+              </div> <!-- * ROW 3 END -->
+               <div class="row"> <!-- * ROW 4 BEGIN -->
+
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                      <img src="./pillspics/4thFloorPortraits.png" class="img-fluid" />
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Wells Library UITS Signage
+                  </p>
+                </div>
+  
+                <!-- * DESIGN END -->
+                <!-- * TECHDOC BEGIN -->
+
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://kb.iu.edu/d/bgko">
+                      <img src="./pillspics/PowerpointPlotterInstructions.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Knowledge Base Plotter Instructions
+                  </p>
+                </div>
+
+              <!-- * TECHDOC END -->
+              <!-- * EVENTORG BEGIN -->
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <img src="./pillspics/BtownBeatdown.png" class="img-fluid" />
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  B-Town Beatdown Weekly Series
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://smash.gg/tournament/full-bloom-3/details" target="_blank">
+                    <img src="./pillspics/FB3.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Full Bloom 3
+                </p>
+              </div>
+
+            </div> <!-- * ROW 4 END -->
+            <div class="row"> <!-- * ROW 5 BEGIN -->            
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://smash.gg/tournament/full-bloom-4" target="_blank">
+                    <img src="./pillspics/FB4trailer.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Full Bloom 4
+                </p>
+              </div>
+
+              <div class="col-md-6 col-lg-3 mb-5">
+                <div class="bg-image hover-zoom shadow-1-strong rounded">
+                  <a href="https://smash.gg/tournament/full-bloom-5/details" target="_blank">
+                    <img src="./pillspics/FB5.png" class="img-fluid" />
+                  </a>
+                </div>
+                <p class="text-uppercase text-center font-weight-bold my-4">
+                  Full Bloom 5
+                </p>
+              </div>
+
+            </div> <!-- * ROW 5 END, Can fit 2 more-->
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Section End-->
+</div>
+
+<!-- * Contact Form section  -->
+<!-- TODO #1 Change color of highlight when inputting text.
+     TODO #2 Check ho wit looks on mobile.  -->
+
+<section style="background: linear-gradient(
+  180deg,
+  rgba(255, 206, 194, 1) 0%,
+  rgba(255, 206, 194, 1) 20%,
+  rgba(255, 206, 194, 0) 90%
+);">
+
+  <div class="container shadow-5">
+
+    <section class="text-center" id="contactMe">
+  
+      <h3 class="mb-3">Let's get in touch.</h3>
+      <p>Get a hold of me by filling in the short form below and I will get back to you as soon as possible. Thank you!</p>
+  
+      <hr class="my-4" />
+  
+      <div class="row d-flex justify-content-center pt-2">
+  
+        <div class="col-md-6 mb-4">
+  
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mvodydwd"
+          method="post">
+            <fieldset id="fs-frm-inputs">
+
+              <!-- NAME: Where they put their NAME -->
+              <div class="form-outline mb-4">
+                <input type="text" id="form4Example1" class="form-control" name="name"/>
+                <label class="form-label" for="form4Example1">Name</label>
+                <div class="form-helper text-start">BoJack Horseman</div>
+              </div>
+    
+              <!-- EMAIL: Where they put their EMAIL -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form4Example2" class="form-control" name="_replyto"/>
+                <label class="form-label" for="form4Example2">Email address</label>
+                <div class="form-helper text-start">email@company.com</div>
+              </div>
+    
+              <!-- MESSAGE: What they put in the MESSAGE -->
+              <div class="form-outline mb-4">
+                <textarea class="form-control" id="form4Example3" rows="4" name="message"></textarea>
+                <label class="form-label" for="form4Example3">Message</label>
+              </div>
+    
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary btn-lg" id="sendButton" target="_blank" data-mdb-toggle="animation"
+              data-mdb-animation-reset="true" class="shadow-1-strong" >
+                Send
+              </button>
+
+          </fieldset>
+          </form>
+  
+        </div>
+  
+      </div>
+  
+    </section>
+  
+  </div>
+</section>
+
+<!-- * Footer -->
+
+<footer class="text-center text-white" style="background-color: #DAEBEE;">
+
+  <div class="container">
+
+    <section>
+
+      <!-- Home -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#top"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fas fa-home"></i>
+      </a>
+
+      <!-- Github -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://github.com/Alex-Lee-Myers"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-github"></i
+      ></a>
+
+      <!-- LinkedIn -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://www.linkedin.com/in/alexanderlmyers/"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+
+      <!-- Twitter-->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="https://twitter.com/AlexLeeMe"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Resume -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="./resume/Alex Myers Resume Doc.docx.pdf"
+        role="button"
+        data-mdb-ripple-color="dark"
+        target="_blank"
+        ><i class="fas fa-file"></i>
+      </a>
     </section>
 
-<!-- About Me section -->
+  </div>
 
-<!-- Projects section: Static Layout, Creature, API#1, API#2, Blue Badge, Red Badge -->
-
-<!-- Contact section  -->
-
-<!-- Footer -->
+</footer>
 
 <!-- Bootstrap, MDB, and Javascript Attached Here -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
-    <script src="apps.js"></script>
+    <script type="text/javascript" src="./mdb/mdb.min.js"></script>
+    <script type="text/javascript" src="./apps.js"></script>
 </body>
 </html>
