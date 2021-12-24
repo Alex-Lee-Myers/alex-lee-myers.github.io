@@ -21,7 +21,14 @@
 </head>
 
 <body>
-
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!--* ________________ NAVBAR ________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
   <!-- * Navbar section -->
   <!-- TODO's are all done for this section  -->
   <!-- * Navbar -->
@@ -94,7 +101,14 @@
     </div>
   </nav>
   <!-- * END OF Navbar -->
-
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!--* _________________ / LANDING ________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
   <!-- * START OF header/landing section -->
   <!--     TODO's are all done for this section. -->
 
@@ -193,6 +207,16 @@
       TODO #7 | Add a "View Demo" button to each project.
       TODO #8 | Add Red badge projects. (1) Add 72 Hour Project (2) Add GameChest
   -->
+
+    <!-- _____________________________________________________ -->
+    <!-- _____________________________________________________ -->
+    <!-- _____________________________________________________ -->
+    <!-- _____________________________________________________ -->
+    <!--* ________________ MY PROJECT ________________________ -->
+    <!-- _____________________________________________________ -->
+    <!-- _____________________________________________________ -->
+    <!-- _____________________________________________________ -->
+
     <section id="myProjects">
       <h3 class="text-center pt-5">Project Portfolio</h3>
 
@@ -204,6 +228,15 @@
         situations when managing a team that delivers multi-day events to over 500 in-person audience members and tens
         of thousands of virtual participants.
       </p>
+
+      <!-- _____________________________________________________ -->
+      <!-- _____________________________________________________ -->
+      <!-- _____________________________________________________ -->
+      <!-- _____________________________________________________ -->
+      <!--* ________________ PROJECT PILLS ________________________ -->
+      <!-- _____________________________________________________ -->
+      <!-- _____________________________________________________ -->
+      <!-- _____________________________________________________ -->
 
       <div class="row">
         <div class="col-12">
@@ -240,11 +273,25 @@
           <!-- * Pills content -->
           <div class="tab-content pt-3" id="servicesContent">
 
+            <!-- _____________________________________________________ -->
+            <!-- _____________________________________________________ -->
+            <!-- _____________________________________________________ -->
+            <!-- _____________________________________________________ -->
+            <!--* ________________ TABS________________________ -->
+            <!-- _____________________________________________________ -->
+            <!-- _____________________________________________________ -->
+            <!-- _____________________________________________________ -->
+
             <!-- * WebDev Tab -->
             <div class="tab-pane fade show active" id="webdev" role="tabpanel" aria-labelledby="webdev-tab">
-              <div class="row">
+              <div class="row g-4 g-lg-5">
 
-                <div class="col-md-6 col-lg-3 mb-4">
+                <!--!* START OF           -->
+                <!--! GAMECHEST -->
+                <!--* ____________________-->
+
+                <div class="col-lg-4 col-md-12">
+                  <div class="card">
                   <div class="bg-image hover-zoom shadow-1-strong rounded">
                     <a href="https://amp-my-gamechest-react.herokuapp.com/" target="_blank">
                       <img src="./pillspics/GameChestPill-01.png" class="img-fluid" />
@@ -253,12 +300,44 @@
                   <p class="text-uppercase text-center font-weight-bold my-4">
                     GameChest
                   </p>
+                  <!--! centered Buttons -->
+                  <div class="d-flex  btn-group justify-content-around">
+                    <!--! live demo link -->
+                    <a href="https://amp-my-gamechest-react.herokuapp.com/" target="_blank">
+                      <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                        style="background-color:#FCEDDA">Demo<i
+                          class="fas fa-external-link-square-alt ms-1"></i></button>
+                    </a>
+
+                    <!--! BEGGINING OF MODAL BUTTON  -->
+                    <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                      style="background-color:#daebee" data-mdb-toggle="modal"
+                      data-mdb-target="#GameChestMoreDetailsModal">
+                      Project Details <i class="fas fa-info-circle ms-1"></i>
+                    </button>
+
+                    <!--! BEGINNING OF GITHUB BUTTON -->
+                    <a class="btn btn-primary" style="background-color: #333333;"
+                      href="https://github.com/Alex-Lee-Myers/Location-Station" target="_blank" role="button">Repo <i
+                        class="fab fa-github ms-1"></i></button></a>
+                    <!--! END OF GITHUB BUTTON -->
+                  </div>
                 </div>
+                </div>
+                <!--! END OF BUTTON DIV  -->
+
 
                 <!--! ____________________ -->
+                <!--! END OF GAMECHEST -->
+                <!--! ____________________-->
+
+
+                <!--!* START OF           -->
                 <!--! LOCATION STATION -->
-                <!--! ____________________--> 
-                <div class="col-md-6 col-lg-3 mb-4">
+                <!--* ____________________-->
+
+                <div class="col-lg-4 col-md-12">
+                  <div class="card">
                   <div class="bg-image hover-zoom shadow-1-strong rounded">
                     <a href="https://locationstation.herokuapp.com/" target="_blank">
                       <img src="./pillspics/LocationStation-01.png" class="img-fluid" />
@@ -268,93 +347,131 @@
                     Location Station
                   </p>
                   <!--! centered Buttons -->
-                  <div class="d-flex justify-content-evenly">
-                    <!-- live MDButton demo link -->
+                  <div class="d-flex  btn-group justify-content-around">
+                    <!--! live demo link -->
                     <a href="https://locationstation.herokuapp.com/" target="_blank">
-                      <button type="button" class="btn btn-primary "data-mdb-ripple-color="#1266f1" style="background-color:#ff5c34">Live Demo <i class="fas fa-external-link-square-alt ms-1"></i></button>
+                      <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                        style="background-color:#FCEDDA">Demo<i
+                          class="fas fa-external-link-square-alt ms-1"></i></button>
                     </a>
 
-                  <!--! BEGGINING OF MODAL BUTTON  -->
-                  <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126" style="background-color:#daebee" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
-                    More Details <i class="fas fa-info-circle ms-1"></i>
-                  </button>
+                    <!--! BEGGINING OF MODAL BUTTON  -->
+                    <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                      style="background-color:#daebee" data-mdb-toggle="modal"
+                      data-mdb-target="#LocationStationMoreDetailsModal">
+                      Project Details <i class="fas fa-info-circle ms-1"></i>
+                    </button>
 
-                  <!--!  Modal -->
-                  <div class="modal fade right" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
-                      <div class="modal-content">
-                        <div class="modal-header bg-primary text-white">
-                          <h5 class="modal-title" id="exampleModalLabel">Related article</h5>
-                          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="row">
-                            <div class="col-md-6 mb-4">
-                              <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
-                                <img src="https://mdbootstrap.com/img/new/standard/city/041.jpg" class="img-fluid" />
-                                <a href="#!">
-                                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </a>
-                              </div>
-                            </div>
 
-                            <div class="col-md-6 mb-4">
-                              <p><strong>Doloremque vero ex debitis veritatis?</strong></p>
-                              <p class="text-muted">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque
-                                voluptate nesciunt laborum incidunt. Officia, quam consectetur. Earum eligendi
-                                aliquam illum alias.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-primary">Read more</button>
-                          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
-                            Close
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                     <!--! END OF MORE DETAILS BUTTON DIV  -->
+                    <!--! BEGINNING OF GITHUB BUTTON -->
+                    <a class="btn btn-primary" style="background-color: #333333;"
+                      href="https://github.com/Alex-Lee-Myers/Location-Station" target="_blank" role="button">Repo <i
+                        class="fab fa-github ms-1"></i></button></a>
+                    <!--! END OF GITHUB BUTTON -->
                   </div>
-                                  <!--! BEGINNING OF GITHUB BUTTON -->
-                <a class="btn btn-primary" style="background-color: #333333;" href="#!" role="button">GitHub Repo <i
-                  class="fab fa-github ms-1"></i></a></button>
-              <!--! END OF GITHUB BUTTON -->
                 </div>
-              </div>
+                </div>
                 <!--! END OF BUTTON DIV  -->
 
+                <!--! ____________________ -->
+                <!--! END OF LOCATION STATION -->
+                <!--! ____________________-->
 
-                <div class="col-md-6 col-lg-3 mb-4">
-                  <div class="bg-image hover-zoom shadow-1-strong rounded">
-                    <a href="https://alex-lee-myers.github.io/staticLayout/" target="_blank">
-                      <img src="./pillspics/StaticLayout.png" class="img-fluid" />
-                    </a>
+                <!--!* START OF           -->
+                <!--! STATIC LAYOUT -->
+                <!--* ____________________-->
+
+                <div class="col-lg-4 col-md-12">
+                  <div class="card">
+                    <div class="bg-image hover-zoom shadow-1-strong rounded">
+                      <a href="https://alex-lee-myers.github.io/staticLayout/" target="_blank">
+                        <img src="./pillspics/StaticLayout.png" class="img-fluid" />
+                      </a>
+                    </div>
+                    <p class="text-uppercase text-center font-weight-bold my-4">
+                      Static Layout Mockup
+                    </p>
+                    <!--! centered Buttons -->
+                    <div class="d-flex  btn-group justify-content-around">
+                      <!--! live demo link -->
+                      <a href="https://amp-my-gamechest-react.herokuapp.com/" target="_blank">
+                        <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                          style="background-color:#FCEDDA">Demo<i
+                            class="fas fa-external-link-square-alt ms-1"></i></button>
+                      </a>
+
+                      <!--! BEGGINING OF MODAL BUTTON  -->
+                      <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                        style="background-color:#daebee" data-mdb-toggle="modal" data-mdb-target="#StaticLayoutModal">
+                        Project Details <i class="fas fa-info-circle ms-1"></i>
+                      </button>
+
+
+                      <!--! BEGINNING OF GITHUB BUTTON -->
+                      <a class="btn btn-primary" style="background-color: #333333;"
+                        href="https://github.com/Alex-Lee-Myers/Location-Station" target="_blank" role="button">Repo <i
+                          class="fab fa-github ms-1"></i></button></a>
+                      <!--! END OF GITHUB BUTTON -->
+                    </div>
                   </div>
-                  <p class="text-uppercase text-center font-weight-bold my-4">
-                    Static Layout Mockup
-                  </p>
                 </div>
 
-                <div class="col-md-6 col-lg-3 mb-4">
-                  <div class="bg-image hover-zoom shadow-1-strong rounded">
-                    <a href="https://alex-lee-myers.github.io/apiChallenge1/" target="_blank">
-                      <img src="./pillspics/ApiChallengeOne.png" class="img-fluid" />
-                    </a>
+                  <!--! END OF           -->
+                  <!--! STATIC LAYOUT-->
+                  <!--* ____________________-->
+
+                  <!--!* STUDIO GHIBLI OF           -->
+                  <!--! LOCATION STATION -->
+                  <!--* ____________________-->
+
+                  <div class="col-lg-4 col-md-12">
+                    <div class="card">
+                    <div class="bg-image hover-zoom shadow-1-strong rounded">
+                      <a href="https://alex-lee-myers.github.io/apiChallenge1/" target="_blank">
+                        <img src="./pillspics/ApiChallengeOne.png" class="img-fluid" />
+                      </a>
+                    </div>
+                    <p class="text-uppercase text-center font-weight-bold my-4">
+                      Studio Ghibli Search - API Project
+                    </p>
+                    <!--! centered Buttons -->
+                    <div class="d-flex  btn-group justify-content-around">
+                      <!--! live demo link -->
+                      <a href="https://amp-my-gamechest-react.herokuapp.com/" target="_blank">
+                        <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                          style="background-color:#FCEDDA">Demo<i
+                            class="fas fa-external-link-square-alt ms-1"></i></button>
+                      </a>
+
+                      <!--! BEGGINING OF MODAL BUTTON  -->
+                      <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                        style="background-color:#daebee" data-mdb-toggle="modal"
+                        data-mdb-target="#StudioGhibliSearchModal">
+                        Project Details <i class="fas fa-info-circle ms-1"></i>
+                      </button>
+
+
+                      <!--! BEGINNING OF GITHUB BUTTON -->
+                      <a class="btn btn-primary" style="background-color: #333333;"
+                        href="https://github.com/Alex-Lee-Myers/Location-Station" target="_blank" role="button">Repo <i
+                          class="fab fa-github ms-1"></i></button></a>
+                      <!--! END OF GITHUB BUTTON -->
+                    </div>
                   </div>
-                  <p class="text-uppercase text-center font-weight-bold my-4">
-                    Studio Ghibli Search - API Project
-                  </p>
                 </div>
 
-                <div class="row">
+                  <!--! END OF           -->
+                  <!--! STUDIO GHIBLI-->
+                  <!--* ____________________-->
 
-                  <div class="col-md-6 col-lg-3 mb-4">
+
+
+                  <!--!* START OF           -->
+                  <!--! GIPHY API -->
+                  <!--* ____________________-->
+
+                  <div class="col-lg-4 col-md-12">
+                    <div class="card">
                     <div class="bg-image hover-zoom shadow-1-strong rounded">
                       <a href="https://apichallenge2-67b79.web.app/" target="_blank">
                         <img src="./pillspics/giphyAPI.png" class="img-fluid" />
@@ -363,9 +480,40 @@
                     <p class="text-uppercase text-center font-weight-bold my-4">
                       Giphy - API Project
                     </p>
-                  </div>
+                    <!--! centered Buttons -->
+                    <div class="d-flex  btn-group justify-content-around">
+                      <!--! live demo link -->
+                      <a href="https://amp-my-gamechest-react.herokuapp.com/" target="_blank">
+                        <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                          style="background-color:#FCEDDA">Demo<i
+                            class="fas fa-external-link-square-alt ms-1"></i></button>
+                      </a>
 
-                  <div class="col-md-6 col-lg-3 mb-4">
+                      <!--! BEGGINING OF MODAL BUTTON  -->
+                      <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                        style="background-color:#daebee" data-mdb-toggle="modal" data-mdb-target="#GiphyModal">
+                        Project Details <i class="fas fa-info-circle ms-1"></i>
+                      </button>
+
+
+                      <!--! BEGINNING OF GITHUB BUTTON -->
+                      <a class="btn btn-primary" style="background-color: #333333;"
+                        href="https://github.com/Alex-Lee-Myers/Location-Station" target="_blank" role="button">Repo <i
+                          class="fab fa-github ms-1"></i></button></a>
+                      <!--! END OF GITHUB BUTTON -->
+                    </div>
+                  </div>
+                </div>
+
+                  <!--! ____________________ -->
+                  <!--! END OF GIPHY -->
+                  <!--! ____________________-->
+
+                  <!--!* START OF           -->
+                  <!--! PORTFOLIO -->
+                  <!--* ____________________-->
+                  <div class="col-lg-4 col-md-12">
+                    <div class="card">
                     <div class="bg-image hover-zoom shadow-1-strong rounded">
                       <a href="https://github.com/Alex-Lee-Myers/alex-lee-myers.github.io" target="_blank">
                         <img src="./pillspics/portfolioGit.png" class="img-fluid" />
@@ -374,9 +522,41 @@
                     <p class="text-uppercase text-center font-weight-bold my-4">
                       Portfolio | Github
                     </p>
-                  </div>
+                    <!--! centered Buttons -->
+                    <div class="d-flex  btn-group justify-content-around">
+                      <!--! live demo link -->
+                      <a href="https://amp-my-gamechest-react.herokuapp.com/" target="_blank">
+                        <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                          style="background-color:#FCEDDA">Demo<i
+                            class="fas fa-external-link-square-alt ms-1"></i></button>
+                      </a>
 
-                  <div class="col-md-6 col-lg-3 mb-4">
+                      <!--! BEGGINING OF MODAL BUTTON  -->
+                      <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                        style="background-color:#daebee" data-mdb-toggle="modal" data-mdb-target="#PortfolioModal">
+                        Project Details <i class="fas fa-info-circle ms-1"></i>
+                      </button>
+
+
+                      <!--! BEGINNING OF GITHUB BUTTON -->
+                      <a class="btn btn-primary" style="background-color: #333333;"
+                        href="https://github.com/Alex-Lee-Myers/Location-Station" target="_blank" role="button">Repo <i
+                          class="fab fa-github ms-1"></i></button></a>
+                      <!--! END OF GITHUB BUTTON -->
+                    </div>
+                  </div>
+                </div>
+
+                  <!--! ____________________ -->
+                  <!--! END OF PORTFOLIO -->
+                  <!--! ____________________-->
+
+                  <!--!* START OF           -->
+                  <!--! YOSHI -->
+                  <!--* ____________________-->
+
+                  <div class="col-lg-4 col-md-12">
+                    <div class="card">
                     <div class="bg-image hover-zoom shadow-1-strong rounded">
                       <a href="https://codepen.io/ManagingLions/pen/VwbJqyW" target="_blank">
                         <img src="./pillspics/yoshiCreature.png" class="img-fluid" />
@@ -385,9 +565,41 @@
                     <p class="text-uppercase text-center font-weight-bold my-4">
                       Yoshi - CSS Creature
                     </p>
-                  </div>
+                    <!--! centered Buttons -->
+                    <div class="d-flex  btn-group justify-content-around">
+                      <!--! live demo link -->
+                      <a href="https://amp-my-gamechest-react.herokuapp.com/" target="_blank">
+                        <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                          style="background-color:#FCEDDA">Demo<i
+                            class="fas fa-external-link-square-alt ms-1"></i></button>
+                      </a>
 
-                  <div class="col-md-6 col-lg-3 mb-4">
+                      <!--! BEGGINING OF MODAL BUTTON  -->
+                      <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                        style="background-color:#daebee" data-mdb-toggle="modal" data-mdb-target="#YoshiModal">
+                        Project Details <i class="fas fa-info-circle ms-1"></i>
+                      </button>
+
+
+                      <!--! BEGINNING OF GITHUB BUTTON -->
+                      <a class="btn btn-primary" style="background-color: #333333;"
+                        href="https://github.com/Alex-Lee-Myers/Location-Station" target="_blank" role="button">Repo <i
+                          class="fab fa-github ms-1"></i></button></a>
+                      <!--! END OF GITHUB BUTTON -->
+                    </div>
+                  </div>
+                </div>
+
+                  <!--! ____________________ -->
+                  <!--! END OF YOSHI -->
+                  <!--! ____________________-->
+
+                  <!--!* START OF           -->
+                  <!--! REPLIT -->
+                  <!--* ____________________-->
+
+                  <div class="col-lg-4 col-md-12">
+                    <div class="card">
                     <div class="bg-image hover-zoom shadow-1-strong rounded">
                       <a href="https://replit.com/@Alex-Lee-Myers" target="_blank">
                         <img src="./pillspics/Replits.png" class="img-fluid" />
@@ -396,11 +608,38 @@
                     <p class="text-uppercase text-center font-weight-bold my-4">
                       Replit's
                     </p>
+                    <!--! centered Buttons -->
+                    <div class="d-flex  btn-group justify-content-around">
+                      <!--! live demo link -->
+                      <a href="https://amp-my-gamechest-react.herokuapp.com/" target="_blank">
+                        <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                          style="background-color:#FCEDDA">Demo<i
+                            class="fas fa-external-link-square-alt ms-1"></i></button>
+                      </a>
+
+                      <!--! BEGGINING OF MODAL BUTTON  -->
+                      <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                        style="background-color:#daebee" data-mdb-toggle="modal" data-mdb-target="#ReplitModal">
+                        Project Details <i class="fas fa-info-circle ms-1"></i>
+                      </button>
+
+
+                      <!--! BEGINNING OF GITHUB BUTTON -->
+                      <a class="btn btn-primary" style="background-color: #333333;"
+                        href="https://github.com/Alex-Lee-Myers/Location-Station" target="_blank" role="button">Repo <i
+                          class="fab fa-github ms-1"></i></button></a>
+                      <!--! END OF GITHUB BUTTON -->
+                    </div>
                   </div>
+                </div>
+
+                  <!--! ____________________ -->
+                  <!--! END OF REPLIT -->
+                  <!--! ____________________-->
 
                 </div>
               </div>
-            </div>
+            
 
             <!-- * Design Tab -->
 
@@ -724,8 +963,6 @@
                 </div>
 
               </div> <!-- * ROW 4 END -->
-              <div class="row">
-                <!-- * ROW 5 BEGIN -->
 
                 <div class="col-md-6 col-lg-3 mb-5">
                   <div class="bg-image hover-zoom shadow-1-strong rounded">
@@ -748,8 +985,6 @@
                     Full Bloom 5
                   </p>
                 </div>
-
-              </div> <!-- * ROW 5 END, Can fit 2 more-->
             </div>
           </div>
         </div>
@@ -760,7 +995,14 @@
   </section>
   <!--Section End-->
   </div>
-
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!--* ________________ CONTACT FORM ________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
   <!-- * Contact Form section  -->
   <!-- TODO #1 Change color of highlight when inputting text.
   TODO #2 Check how it looks on mobile.  -->
@@ -775,11 +1017,11 @@
     <div class="container shadow-5">
 
       <section class="text-center" id="contactMe">
-
+        <div class="pt-5">
         <h3 class="mb-3">Let's get in touch.</h3>
         <p>Get a hold of me by filling in the short form below and I will get back to you as soon as possible. Thank
           you!</p>
-
+        </div>
         <hr class="my-4" />
 
         <div class="row d-flex justify-content-center pt-2">
@@ -828,7 +1070,14 @@
     </div>
   </section>
 
-  <!-- * Footer -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!--* ________________ FOOTER ________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
 
   <footer class="text-center text-white" style="background-color: #DAEBEE;">
 
@@ -862,6 +1111,1324 @@
     </div>
 
   </footer>
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!--* ________________ALL MODALS________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+
+  <!--* ________________WEB DEV MODALS________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+
+  <!--* START____ -->
+  <!--! GAMECHEST -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="GameChestMoreDetailsModal" tabindex="-1"
+    aria-labelledby="GameChestMoreDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="GameChestMoreDetailsModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">GameChest</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- react icon -->
+            <div class="col">
+              <a href="https://reactjs.org/" target="_blank" data-mdb-toggle="tooltip" title="React">
+                <i class="fab fa-react fa-2x" style="color: #00CDF2">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- space shuttle icon -->
+            <div class="col">
+              <a href="https://api.nasa.gov/" target="_blank" data-mdb-toggle="tooltip" title="NASA API">
+                <i class="fas fa-space-shuttle fa-2x" style="color: #0D3E92">
+
+                </i>
+              </a>
+            </div>
+            <!-- weather icon -->
+            <div class="col">
+              <a href="https://openweathermap.org/api" target="_blank" data-mdb-toggle="tooltip"
+                title="OpenWeather API">
+                <i class="fas fa-cloud-sun fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- ticket master icon -->
+            <div class="col">
+              <a href="https://developer.ticketmaster.com/" target="_blank" data-mdb-toggle="tooltip"
+                title="TicketMaster API">
+                <i class="fas fa-ticket-alt fa-2x" style="color:#0996d0">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Section heading</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! GAMECHEST -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! GAMECHEST -->
+  <!--* _________ -->
+
+  <!--!  Modal -->
+  <div class="modal fade right" id="LocationStationMoreDetailsModal" tabindex="-1"
+    aria-labelledby="LocationStationMoreDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="LocationStationMoreDetailsModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Location Station</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- react icon -->
+            <div class="col">
+              <a href="https://reactjs.org/" target="_blank" data-mdb-toggle="tooltip" title="React">
+                <i class="fab fa-react fa-2x" style="color: #00CDF2">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- space shuttle icon -->
+            <div class="col">
+              <a href="https://api.nasa.gov/" target="_blank" data-mdb-toggle="tooltip" title="NASA API">
+                <i class="fas fa-space-shuttle fa-2x" style="color: #0D3E92">
+
+                </i>
+              </a>
+            </div>
+            <!-- weather icon -->
+            <div class="col">
+              <a href="https://openweathermap.org/api" target="_blank" data-mdb-toggle="tooltip"
+                title="OpenWeather API">
+                <i class="fas fa-cloud-sun fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- ticket master icon -->
+            <div class="col">
+              <a href="https://developer.ticketmaster.com/" target="_blank" data-mdb-toggle="tooltip"
+                title="TicketMaster API">
+                <i class="fas fa-ticket-alt fa-2x" style="color:#0996d0">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Section heading</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+
+  <!--! END____ -->
+  <!--! LOCATION STATION -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! STATIC LAYOUT -->
+  <!--* _________ -->
+
+  <!--!  Modal -->
+  <div class="modal fade right" id="StaticLayoutModal" tabindex="-1" aria-labelledby="StaticLayoutModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="StaticLayoutModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">GameChest</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- react icon -->
+            <div class="col">
+              <a href="https://reactjs.org/" target="_blank" data-mdb-toggle="tooltip" title="React">
+                <i class="fab fa-react fa-2x" style="color: #00CDF2">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- space shuttle icon -->
+            <div class="col">
+              <a href="https://api.nasa.gov/" target="_blank" data-mdb-toggle="tooltip" title="NASA API">
+                <i class="fas fa-space-shuttle fa-2x" style="color: #0D3E92">
+
+                </i>
+              </a>
+            </div>
+            <!-- weather icon -->
+            <div class="col">
+              <a href="https://openweathermap.org/api" target="_blank" data-mdb-toggle="tooltip"
+                title="OpenWeather API">
+                <i class="fas fa-cloud-sun fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- ticket master icon -->
+            <div class="col">
+              <a href="https://developer.ticketmaster.com/" target="_blank" data-mdb-toggle="tooltip"
+                title="TicketMaster API">
+                <i class="fas fa-ticket-alt fa-2x" style="color:#0996d0">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Section heading</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! STATIC LAYOUT -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! STUDIO GHIBLI -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="StudioGhibliSearchModal" tabindex="-1"
+    aria-labelledby="StudioGhibliSearchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="StudioGhibliSearchModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">GameChest</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- react icon -->
+            <div class="col">
+              <a href="https://reactjs.org/" target="_blank" data-mdb-toggle="tooltip" title="React">
+                <i class="fab fa-react fa-2x" style="color: #00CDF2">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- space shuttle icon -->
+            <div class="col">
+              <a href="https://api.nasa.gov/" target="_blank" data-mdb-toggle="tooltip" title="NASA API">
+                <i class="fas fa-space-shuttle fa-2x" style="color: #0D3E92">
+
+                </i>
+              </a>
+            </div>
+            <!-- weather icon -->
+            <div class="col">
+              <a href="https://openweathermap.org/api" target="_blank" data-mdb-toggle="tooltip"
+                title="OpenWeather API">
+                <i class="fas fa-cloud-sun fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- ticket master icon -->
+            <div class="col">
+              <a href="https://developer.ticketmaster.com/" target="_blank" data-mdb-toggle="tooltip"
+                title="TicketMaster API">
+                <i class="fas fa-ticket-alt fa-2x" style="color:#0996d0">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Section heading</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! STUDIO GHIBLI -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! GIPHY API -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="GiphyModal" tabindex="-1" aria-labelledby="GiphyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="GiphyModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">GameChest</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- react icon -->
+            <div class="col">
+              <a href="https://reactjs.org/" target="_blank" data-mdb-toggle="tooltip" title="React">
+                <i class="fab fa-react fa-2x" style="color: #00CDF2">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- space shuttle icon -->
+            <div class="col">
+              <a href="https://api.nasa.gov/" target="_blank" data-mdb-toggle="tooltip" title="NASA API">
+                <i class="fas fa-space-shuttle fa-2x" style="color: #0D3E92">
+
+                </i>
+              </a>
+            </div>
+            <!-- weather icon -->
+            <div class="col">
+              <a href="https://openweathermap.org/api" target="_blank" data-mdb-toggle="tooltip"
+                title="OpenWeather API">
+                <i class="fas fa-cloud-sun fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- ticket master icon -->
+            <div class="col">
+              <a href="https://developer.ticketmaster.com/" target="_blank" data-mdb-toggle="tooltip"
+                title="TicketMaster API">
+                <i class="fas fa-ticket-alt fa-2x" style="color:#0996d0">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Section heading</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! GIPHY -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! PORTFOLIO -->
+  <!--* _________ -->
+
+  <!--!  Modal -->
+  <div class="modal fade right" id="PortfolioModal" tabindex="-1" aria-labelledby="PortfolioModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="PortfolioModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">GameChest</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- react icon -->
+            <div class="col">
+              <a href="https://reactjs.org/" target="_blank" data-mdb-toggle="tooltip" title="React">
+                <i class="fab fa-react fa-2x" style="color: #00CDF2">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- space shuttle icon -->
+            <div class="col">
+              <a href="https://api.nasa.gov/" target="_blank" data-mdb-toggle="tooltip" title="NASA API">
+                <i class="fas fa-space-shuttle fa-2x" style="color: #0D3E92">
+
+                </i>
+              </a>
+            </div>
+            <!-- weather icon -->
+            <div class="col">
+              <a href="https://openweathermap.org/api" target="_blank" data-mdb-toggle="tooltip"
+                title="OpenWeather API">
+                <i class="fas fa-cloud-sun fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- ticket master icon -->
+            <div class="col">
+              <a href="https://developer.ticketmaster.com/" target="_blank" data-mdb-toggle="tooltip"
+                title="TicketMaster API">
+                <i class="fas fa-ticket-alt fa-2x" style="color:#0996d0">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Section heading</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+
+  <!--! END____ -->
+  <!--! PORTFOLIO -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! YOSHI CSS -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="YoshiModal" tabindex="-1" aria-labelledby="YoshiModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="YoshiModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">GameChest</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- react icon -->
+            <div class="col">
+              <a href="https://reactjs.org/" target="_blank" data-mdb-toggle="tooltip" title="React">
+                <i class="fab fa-react fa-2x" style="color: #00CDF2">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- space shuttle icon -->
+            <div class="col">
+              <a href="https://api.nasa.gov/" target="_blank" data-mdb-toggle="tooltip" title="NASA API">
+                <i class="fas fa-space-shuttle fa-2x" style="color: #0D3E92">
+
+                </i>
+              </a>
+            </div>
+            <!-- weather icon -->
+            <div class="col">
+              <a href="https://openweathermap.org/api" target="_blank" data-mdb-toggle="tooltip"
+                title="OpenWeather API">
+                <i class="fas fa-cloud-sun fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- ticket master icon -->
+            <div class="col">
+              <a href="https://developer.ticketmaster.com/" target="_blank" data-mdb-toggle="tooltip"
+                title="TicketMaster API">
+                <i class="fas fa-ticket-alt fa-2x" style="color:#0996d0">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Section heading</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+
+  <!--! END____ -->
+  <!--! YOSHI CSS -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! REPLITS -->
+  <!--* _________ -->
+
+  <!--!  Modal -->
+  <div class="modal fade right" id="ReplitModal" tabindex="-1" aria-labelledby="ReplitModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="ReplitModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">GameChest</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- react icon -->
+            <div class="col">
+              <a href="https://reactjs.org/" target="_blank" data-mdb-toggle="tooltip" title="React">
+                <i class="fab fa-react fa-2x" style="color: #00CDF2">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- space shuttle icon -->
+            <div class="col">
+              <a href="https://api.nasa.gov/" target="_blank" data-mdb-toggle="tooltip" title="NASA API">
+                <i class="fas fa-space-shuttle fa-2x" style="color: #0D3E92">
+
+                </i>
+              </a>
+            </div>
+            <!-- weather icon -->
+            <div class="col">
+              <a href="https://openweathermap.org/api" target="_blank" data-mdb-toggle="tooltip"
+                title="OpenWeather API">
+                <i class="fas fa-cloud-sun fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- ticket master icon -->
+            <div class="col">
+              <a href="https://developer.ticketmaster.com/" target="_blank" data-mdb-toggle="tooltip"
+                title="TicketMaster API">
+                <i class="fas fa-ticket-alt fa-2x" style="color:#0996d0">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Section heading</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Component heading</h5>
+              <p class="text-muted">Component subheading</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! YOSHI CSS -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
 
   <!-- Bootstrap, MDB, and Javascript Attached Here -->
   <script type="text/javascript" src="./mdb/mdb.min.js"></script>
