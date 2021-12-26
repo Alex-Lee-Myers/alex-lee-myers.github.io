@@ -1,133 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="url(./images/CurrentPosition.png)" />
-        <!-- Font Awesome -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
-        <!-- Roboto Font | Material Design great font-->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"  rel="stylesheet" />
-        <!-- Local Version of MDB5 -->
-        <link href="./mdb/mdb.min.css" rel="stylesheet" />
-        <!-- Personal CSS -->
-        <link rel="stylesheet" href="./style.css">
-      <!-- Tab Logo -->
-      <link rel="icon" href="./images/icoLogo-01.png">
-    <!-- Title -->
-    <title>Alex Lee Myers | Web Developer</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="url(./images/CurrentPosition.png)" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <!-- Roboto Font | Material Design great font-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- Local Version of MDB5 -->
+  <link href="./mdb/mdb.min.css" rel="stylesheet" />
+  <!-- Personal CSS -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- Tab Logo -->
+  <link rel="icon" href="./images/icoLogo-01.png">
+  <!-- Title -->
+  <title>Alex Lee Myers | Web Developer</title>
 </head>
+
 <body>
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!--* ________________ NAVBAR ________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- * Navbar section -->
+  <!-- TODO's are all done for this section  -->
+  <!-- * Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-scroll">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#!"><strong>Alex Lee Myers</strong></a>
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navBarFun"
+        aria-controls="navBarFun" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
 
-<!-- * Navbar section -->
-<!-- TODO's are all done for this section  -->
-<!-- * Navbar -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-scroll">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#!"><strong>Alex Lee Myers</strong></a>
-    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navBarFun"
-      aria-controls="navBarFun" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
-    </button>
+      <div class="collapse navbar-collapse" id="navBarFun">
+        <ul class="navbar-nav me-auto">
 
-    <div class="collapse navbar-collapse" id="navBarFun">
-      <ul class="navbar-nav me-auto">
+          <!-- * ABOUT ME -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#aboutMe" style="color:#fff">
+              About Me
+            </a>
+          </li>
 
-        <!-- * ABOUT ME -->
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#aboutMe" style="color:#fff">
-            About Me
-          </a>
-        </li>
+          <!-- * MY PROJECTS -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#myProjects" style="color:#fff">
+              Projects
+            </a>
+          </li>
 
-        <!-- * MY PROJECTS -->
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#myProjects" style="color:#fff">
-            Projects
-          </a>
-        </li>
-
-        <!-- * RESUME -->
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="./resume/Alex Lee Myers - Resume.pdf" style="color:#fff" target="_blank"```  >
-            Resume
-          </a>
-        </li>
+          <!-- * RESUME -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./resume/Alex Lee Myers - Resume.pdf" style="color:#fff"
+              target="_blank" ```>
+              Resume
+            </a>
+          </li>
 
 
-        <!-- * CONTACT ME -->
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#contactMe" style="color:#fff">
-            Contact Me
-          </a>
-        </li>
-      </ul>
+          <!-- * CONTACT ME -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#contactMe" style="color:#fff">
+              Contact Me
+            </a>
+          </li>
+        </ul>
 
-      <ul class="navbar-nav d-flex flex-row">
+        <ul class="navbar-nav d-flex flex-row">
 
-        <!-- * Github link -->
-        <li class="nav-item me-3 me-lg-0">
-          <a class="nav-link" href="https://github.com/Alex-Lee-Myers" rel="nofollow" target="_blank">
-            <i class="fab fa-github-square" style="color:#fff"></i>
-          </a>
-        </li>
+          <!-- * Github link -->
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://github.com/Alex-Lee-Myers" rel="nofollow" target="_blank">
+              <i class="fab fa-github-square" style="color:#fff"></i>
+            </a>
+          </li>
 
-        <!-- * LinkedIn link -->
-        <li class="nav-item me-3 me-lg-0">
-          <a class="nav-link" href="https://www.linkedin.com/in/alexanderlmyers/" rel="nofollow" target="_blank">
-            <i class="fab fa-linkedin" style="color:#fff"></i>
-          </a>
-        </li>
+          <!-- * LinkedIn link -->
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://www.linkedin.com/in/alexanderlmyers/" rel="nofollow" target="_blank">
+              <i class="fab fa-linkedin" style="color:#fff"></i>
+            </a>
+          </li>
 
-        <!-- * Twitter link -->
-        <li class="nav-item me-3 me-lg-0">
-          <a class="nav-link" href="https://twitter.com/AlexLeeMe" rel="nofollow" target="_blank">
-            <i class="fab fa-twitter" style="color:#fff"></i>
-          </a>
-        </li>
-      </ul>
+          <!-- * Twitter link -->
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://twitter.com/AlexLeeMe" rel="nofollow" target="_blank">
+              <i class="fab fa-twitter" style="color:#fff"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
-<!-- * END OF Navbar -->
-
-<!-- * START OF header/landing section -->
-      <!--     TODO's are all done for this section. -->
+  </nav>
+  <!-- * END OF Navbar -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!--* _________________ / LANDING ________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- * START OF header/landing section -->
+  <!--     TODO's are all done for this section. -->
 
   <!-- * Background image -->
-  <div
-      id="intro"
-      class="bg-image"
-      style="
+  <div id="intro" class="bg-image" style="
               background-image: url('./images/CoverPhoto.jpg');
               height: 100vh;
-              "
-      >
+              ">
 
     <div class="mask text-white" style="
     background: linear-gradient(
       45deg,
       rgba(0, 0, 0, 0.795) 30%,
       rgba(255, 206, 194, 0) 70%
-    );"
-    >
+    );">
       <div class="container d-flex align-items-center text-left h-100">
         <div>
-          <h1 class ="fw-bold">.AlexLeeMyers</h1>
+          <h1 class="fw-bold">.AlexLeeMyers</h1>
           <h4 class="mb-3 fw-bold">I turn ideas into accessible websites.</h4>
-          <a class="btn btn-outline-light btn-lg fw-bold" data-mdb-toggle="animation" data-mdb-animation-reset="false" data-mdb-animation="slide-out-right" id="resumeButton" href="./resume/Alex Lee Myers - Resume.pdf" role="button" download
-          >Resume</a
-        >
+          <a class="btn btn-outline-light btn-lg fw-bold" data-mdb-toggle="animation" data-mdb-animation-reset="false"
+            data-mdb-animation="slide-out-right" id="resumeButton" href="./resume/Alex Lee Myers - Resume.pdf"
+            role="button" download>Resume</a>
         </div>
       </div>
     </div>
   </div>
-</header>
 
-<!-- * Break between sections -->
+  <!-- * Break between sections -->
 
-<section>
+  <section>
 
     <div style="background-color: #B6D7DE;">
       <div class="d-flex align-items-center justify-content-center h-100 py-5" id="aboutMe">
@@ -136,55 +147,48 @@
         </div>
       </div>
     </div>
-  
-</section>
 
-<!-- * /Break between sections -->
+  </section>
 
-<!-- * About Me Section -->
+  <!-- * /Break between sections -->
+
+  <!-- * About Me Section -->
   <div class="card-group">
     <div class="card" style="background-color: #fcedda;">
-      <img
-        src="./images/AboutMe.png"
-        class="card-img-top"
-        alt="About Me section."
-      />
+      <img src="./images/AboutMe.png" class="card-img-top" alt="About Me section." />
       <div class="card-body">
         <h5 class="card-title">About Me</h5>
         <p class="card-text">
-          Hello world! I'm an Indiana-based full-stack web developer who comes molded from background experiences involving time-intensive problem solving, vigilant attention to detail, and constant collaboration. 
+          Hello world! I'm an Indiana-based full-stack web developer who comes molded from background experiences
+          involving time-intensive problem solving, vigilant attention to detail, and constant collaboration.
         </p>
       </div>
     </div>
     <div class="card">
-      <img
-        src="./images/CurrentPosition.png"
-        class="card-img-top"
-        alt="Current Position"
-      />
+      <img src="./images/CurrentPosition.png" class="card-img-top" alt="Current Position" />
       <div class="card-body" style="background-color: #fcedda;">
         <h5 class="card-title">Current Position</h5>
-        <p class="card-text"> <!-- TODO "Learn more" clickable card. Expands card into a more thorough description of myself.-->
-          Presently, I work full-time as the Information Technology Coordinator at Indiana University. My day-to-day requires active technical troubleshooting, constant supervision of up to 7 consultants at any given time, and managing an ecosystem of over 2,000 devices.
+        <p class="card-text">
+          <!-- TODO "Learn more" clickable card. Expands card into a more thorough description of myself.-->
+          Presently, I work full-time as the Information Technology Coordinator at Indiana University. My day-to-day
+          requires active technical troubleshooting, constant supervision of up to 7 consultants at any given time, and
+          managing an ecosystem of over 2,000 devices.
         </p>
       </div>
     </div>
     <div class="card" style="background-color: #fcedda;">
-      <img
-        src="./images/FutureProspects.png"
-        class="card-img-top"
-        alt="Future Prospects"
-      />
+      <img src="./images/FutureProspects.png" class="card-img-top" alt="Future Prospects" />
       <div class="card-body">
         <h5 class="card-title">Future Prospects</h5>
-         <p class="card-text"> 
-          My next goal in my career is to become a full-time web developer. I truly believe my past career experiences gave me a baseline of skills that directly translate into being a fast-learner when it comes to this field.
+        <p class="card-text">
+          My next goal in my career is to become a full-time web developer. I truly believe my past career experiences
+          gave me a baseline of skills that directly translate into being a fast-learner when it comes to this field.
         </p>
       </div>
     </div>
   </div>
-<!-- * Projects section: Static Layout, Creature, API#1, API#2, Blue Badge, Red Badge -->
-<div class="container-fluid"  style="background: linear-gradient(
+  <!-- * Projects section: Static Layout, Creature, API#1, API#2, Blue Badge, Red Badge -->
+  <div class="container-fluid" style="background: linear-gradient(
   180deg,
   rgba(252, 237, 218, 1) 0%,
   rgba(255, 206, 194, 0) 20%,
@@ -192,7 +196,7 @@
   rgba(252, 237, 218, 0) 80%,
   rgba(255, 206, 194, 1) 100%
 );">
-  <!--
+    <!--
     TODO Content:
       TODO #1 | Clicking a project link opens a full page Modal with full details. 
       TODO #2 | Center everything if not perfectly 4 in a row on desktop.
@@ -203,374 +207,446 @@
       TODO #7 | Add a "View Demo" button to each project.
       TODO #8 | Add Red badge projects. (1) Add 72 Hour Project (2) Add GameChest
   -->
-  <section id="myProjects">
-    <h3 class="text-center pt-5">Project Portfolio</h3>
 
-    <p class="text-center mb-5 mx-auto w-responsive">
-      Here you can see my web development projects, ranging from incorporating API calls in a website, utilizing React in a small development group, and designing this Portfolio page via Material Design Bootstrap. Complimenting this is experiences in design, technical documentation creation, and mentoring consultants at my current position. Additionally, my skills as a leader and technical expert are frequently put to the test in crunch-time situations when managing a team that delivers multi-day events to over 500 in-person audience members and tens of thousands of virtual participants.
-    </p>
+    <!-- _____________________________________________________ -->
+    <!-- _____________________________________________________ -->
+    <!-- _____________________________________________________ -->
+    <!-- _____________________________________________________ -->
+    <!--* ________________ MY PROJECT ________________________ -->
+    <!-- _____________________________________________________ -->
+    <!-- _____________________________________________________ -->
+    <!-- _____________________________________________________ -->
 
-    <div class="row">
-      <div class="col-12">
-        <!-- Pills navs -->
-        <ul class="nav nav-pills mb-3 mx-n2 mt-n2 justify-content-center" id="issuesTabs" role="tablist">
+    <section id="myProjects">
+      <h3 class="text-center pt-5">Project Portfolio</h3>
 
-          <li class="nav-item" role="presentation">
-            <a class="nav-link active" id="webdev-tab" data-mdb-toggle="pill" href="#webdev" role="tab"
-              aria-controls="webdev" aria-selected="true">Web Development</a>
-          </li>
+      <p class="text-center mb-5 mx-auto w-responsive">
+        Here you can see my web development projects, ranging from incorporating API calls in a website, utilizing React
+        in a small development group, and designing this Portfolio page via Material Design Bootstrap. Complimenting
+        this is experiences in design, technical documentation creation, and mentoring consultants at my current
+        position. Additionally, my skills as a leader and technical expert are frequently put to the test in crunch-time
+        situations when managing a team that delivers multi-day events to over 500 in-person audience members and tens
+        of thousands of virtual participants.
+      </p>
 
-          <li class="nav-item" role="presentation">
-            <a class="nav-link" id="Design-tab" data-mdb-toggle="pill" href="#Design" role="tab"
-              aria-controls="Design" aria-selected="false">Design</a>
-          </li>
+      <!-- _____________________________________________________ -->
+      <!-- _____________________________________________________ -->
+      <!-- _____________________________________________________ -->
+      <!-- _____________________________________________________ -->
+      <!--* ________________ PROJECT PILLS ________________________ -->
+      <!-- _____________________________________________________ -->
+      <!-- _____________________________________________________ -->
+      <!-- _____________________________________________________ -->
 
-          <li class="nav-item" role="presentation">
-            <a class="nav-link" id="techdoc-tab" data-mdb-toggle="pill" href="#techdoc" role="tab"
-              aria-controls="techdoc" aria-selected="false">Technical Documentation</a>
-          </li>
+      <div class="row">
+        <div class="col-12">
+          <!-- Pills navs -->
+          <ul class="nav nav-pills mb-3 mx-n2 mt-n2 justify-content-center" id="issuesTabs" role="tablist">
 
-          <li class="nav-item" role="presentation">
-            <a class="nav-link" id="eventorg-tab" data-mdb-toggle="pill" href="#eventorg" role="tab"
-              aria-controls="eventorg" aria-selected="false">Event Organization</a>
-          </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="webdev-tab" data-mdb-toggle="pill" href="#webdev" role="tab"
+                aria-controls="webdev" aria-selected="true">Web Development</a>
+            </li>
 
-          <li class="nav-item" role="presentation">
-            <a class="nav-link" id="all-tab" data-mdb-toggle="pill" href="#all" role="tab"
-              aria-controls="all" aria-selected="false">All</a>
-          </li>
-        </ul>
-        <!-- * Pills navs -->
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="Design-tab" data-mdb-toggle="pill" href="#Design" role="tab"
+                aria-controls="Design" aria-selected="false">Design</a>
+            </li>
 
-        <!-- * Pills content -->
-        <div class="tab-content pt-3" id="servicesContent">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="techdoc-tab" data-mdb-toggle="pill" href="#techdoc" role="tab"
+                aria-controls="techdoc" aria-selected="false">Technical Documentation</a>
+            </li>
 
-          <!-- * WebDev Tab -->
-          <div class="tab-pane fade show active" id="webdev" role="tabpanel" aria-labelledby="webdev-tab">
-            <div class="row">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="eventorg-tab" data-mdb-toggle="pill" href="#eventorg" role="tab"
+                aria-controls="eventorg" aria-selected="false">Event Organization</a>
+            </li>
 
-              <div class="col-md-6 col-lg-3 mb-4">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://amp-my-gamechest-react.herokuapp.com/" target="_blank">
-                    <img src="./pillspics/GameChestPill-01.png" class="img-fluid" />
-                  </a>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="all-tab" data-mdb-toggle="pill" href="#all" role="tab" aria-controls="all"
+                aria-selected="false">All</a>
+            </li>
+          </ul>
+          <!-- * Pills navs -->
+
+          <!-- * Pills content -->
+          <div class="tab-content pt-3" id="servicesContent">
+
+            <!-- _____________________________________________________ -->
+            <!-- _____________________________________________________ -->
+            <!-- _____________________________________________________ -->
+            <!-- _____________________________________________________ -->
+            <!--* ________________ TABS________________________ -->
+            <!-- _____________________________________________________ -->
+            <!-- _____________________________________________________ -->
+            <!-- _____________________________________________________ -->
+
+            <!-- * WebDev Tab -->
+            <div class="tab-pane fade show active" id="webdev" role="tabpanel" aria-labelledby="webdev-tab">
+              <div class="row g-4 g-lg-5">
+
+                <!--!* START OF           -->
+                <!--! GAMECHEST -->
+                <!--* ____________________-->
+
+                <div class="col-lg-4 col-md-12">
+                  <div class="card">
+                    <div class="bg-image hover-zoom shadow-1-strong rounded">
+                      <a href="https://amp-my-gamechest-react.herokuapp.com/" target="_blank">
+                        <img src="./pillspics/GameChestPill-01.png" class="img-fluid" />
+                      </a>
+                    </div>
+                    <p class="text-uppercase text-center font-weight-bold my-4">
+                      GameChest
+                    </p>
+                    <!--! centered Buttons -->
+                    <div class="d-flex  btn-group justify-content-around">
+                      <!--! live demo link -->
+                      <a href="https://amp-my-gamechest-react.herokuapp.com/" target="_blank">
+                        <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                          style="background-color:#FCEDDA">Demo<i
+                            class="fas fa-external-link-square-alt ms-1"></i></button>
+                      </a>
+
+                      <!--! BEGGINING OF MODAL BUTTON  -->
+                      <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                        style="background-color:#daebee" data-mdb-toggle="modal"
+                        data-mdb-target="#GameChestMoreDetailsModal">
+                        Project Details <i class="fas fa-info-circle ms-1"></i>
+                      </button>
+
+                      <!--! BEGINNING OF GITHUB BUTTON -->
+                      <a class="btn btn-primary" style="background-color: #333333;"
+                        href="https://github.com/coderap931/teamBluePern-Client" target="_blank" role="button">Repo <i
+                          class="fab fa-github ms-1"></i></button></a>
+                      <!--! END OF GITHUB BUTTON -->
+                    </div>
+                  </div>
                 </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  GameChest
-                </p>
-              </div>
+                <!--! END OF BUTTON DIV  -->
 
-              <div class="col-md-6 col-lg-3 mb-4">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://locationstation.herokuapp.com/" target="_blank">
-                  <img src="./pillspics/LocationStation-01.png" class="img-fluid"/>
-                </a>
+
+                <!--! ____________________ -->
+                <!--! END OF GAMECHEST -->
+                <!--! ____________________-->
+
+
+                <!--!* START OF           -->
+                <!--! LOCATION STATION -->
+                <!--* ____________________-->
+
+                <div class="col-lg-4 col-md-12">
+                  <div class="card">
+                    <div class="bg-image hover-zoom shadow-1-strong rounded">
+                      <a href="https://locationstation.herokuapp.com/" target="_blank">
+                        <img src="./pillspics/LocationStation-01.png" class="img-fluid" />
+                      </a>
+                    </div>
+                    <p class="text-uppercase text-center font-weight-bold my-4">
+                      Location Station
+                    </p>
+                    <!--! centered Buttons -->
+                    <div class="d-flex  btn-group justify-content-around">
+                      <!--! live demo link -->
+                      <a href="https://locationstation.herokuapp.com/" target="_blank">
+                        <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                          style="background-color:#FCEDDA">Demo<i
+                            class="fas fa-external-link-square-alt ms-1"></i></button>
+                      </a>
+
+                      <!--! BEGGINING OF MODAL BUTTON  -->
+                      <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                        style="background-color:#daebee" data-mdb-toggle="modal"
+                        data-mdb-target="#LocationStationMoreDetailsModal">
+                        Project Details <i class="fas fa-info-circle ms-1"></i>
+                      </button>
+
+
+                      <!--! BEGINNING OF GITHUB BUTTON -->
+                      <a class="btn btn-primary" style="background-color: #333333;"
+                        href="https://github.com/Alex-Lee-Myers/Location-Station" target="_blank" role="button">Repo <i
+                          class="fab fa-github ms-1"></i></button></a>
+                      <!--! END OF GITHUB BUTTON -->
+                    </div>
+                  </div>
                 </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Location Station
-                </p>
-              </div>
+                <!--! END OF BUTTON DIV  -->
 
-              <div class="col-md-6 col-lg-3 mb-4">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://alex-lee-myers.github.io/staticLayout/" target="_blank"> 
-                    <img src="./pillspics/StaticLayout.png" class="img-fluid" />
-                  </a>
+                <!--! ____________________ -->
+                <!--! END OF LOCATION STATION -->
+                <!--! ____________________-->
+
+
+
+                <!--!* STUDIO GHIBLI OF           -->
+                <!--! LOCATION STATION -->
+                <!--* ____________________-->
+
+                <div class="col-lg-4 col-md-12">
+                  <div class="card">
+                    <div class="bg-image hover-zoom shadow-1-strong rounded">
+                      <a href="https://alex-lee-myers.github.io/apiChallenge1/" target="_blank">
+                        <img src="./pillspics/ApiChallengeOne.png" class="img-fluid" />
+                      </a>
+                    </div>
+                    <p class="text-uppercase text-center font-weight-bold my-4">
+                      Studio Ghibli Search - API Project
+                    </p>
+                    <!--! centered Buttons -->
+                    <div class="d-flex  btn-group justify-content-around">
+                      <!--! live demo link -->
+                      <a href="https://alex-lee-myers.github.io/apiChallenge1/" target="_blank">
+                        <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                          style="background-color:#FCEDDA">Demo<i
+                            class="fas fa-external-link-square-alt ms-1"></i></button>
+                      </a>
+
+                      <!--! BEGGINING OF MODAL BUTTON  -->
+                      <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                        style="background-color:#daebee" data-mdb-toggle="modal"
+                        data-mdb-target="#StudioGhibliSearchModal">
+                        Project Details <i class="fas fa-info-circle ms-1"></i>
+                      </button>
+
+
+                      <!--! BEGINNING OF GITHUB BUTTON -->
+                      <a class="btn btn-primary" style="background-color: #333333;"
+                        href="https://github.com/Alex-Lee-Myers/Location-Station" target="_blank" role="button">Repo <i
+                          class="fab fa-github ms-1"></i></button></a>
+                      <!--! END OF GITHUB BUTTON -->
+                    </div>
+                  </div>
                 </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Static Layout Mockup
-                </p>
-              </div>
 
-              <div class="col-md-6 col-lg-3 mb-4">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://alex-lee-myers.github.io/apiChallenge1/" target="_blank">
-                    <img src="./pillspics/ApiChallengeOne.png" class="img-fluid" />
-                  </a>
+                <!--! END OF           -->
+                <!--! STUDIO GHIBLI-->
+                <!--* ____________________-->
+
+
+
+                <!--!* START OF           -->
+                <!--! GIPHY API -->
+                <!--* ____________________-->
+
+                <div class="col-lg-4 col-md-12">
+                  <div class="card">
+                    <div class="bg-image hover-zoom shadow-1-strong rounded">
+                      <a href="https://apichallenge2-67b79.web.app/" target="_blank">
+                        <img src="./pillspics/giphyAPI.png" class="img-fluid" />
+                      </a>
+                    </div>
+                    <p class="text-uppercase text-center font-weight-bold my-4">
+                      Giphy - API Project
+                    </p>
+                    <!--! centered Buttons -->
+                    <div class="d-flex  btn-group justify-content-around">
+                      <!--! live demo link -->
+                      <a href="https://apichallenge2-67b79.web.app/" target="_blank">
+                        <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                          style="background-color:#FCEDDA">Demo<i
+                            class="fas fa-external-link-square-alt ms-1"></i></button>
+                      </a>
+
+                      <!--! BEGGINING OF MODAL BUTTON  -->
+                      <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                        style="background-color:#daebee" data-mdb-toggle="modal" data-mdb-target="#GiphyModal">
+                        Project Details <i class="fas fa-info-circle ms-1"></i>
+                      </button>
+
+
+                      <!--! BEGINNING OF GITHUB BUTTON -->
+                      <a class="btn btn-primary" style="background-color: #333333;"
+                        href="https://github.com/Alex-Lee-Myers/Location-Station" target="_blank" role="button">Repo <i
+                          class="fab fa-github ms-1"></i></button></a>
+                      <!--! END OF GITHUB BUTTON -->
+                    </div>
+                  </div>
                 </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Studio Ghibli Search - API Project
-                </p>
-              </div>
 
-            <div class="row">
+                <!--! ____________________ -->
+                <!--! END OF GIPHY -->
+                <!--! ____________________-->
 
-              <div class="col-md-6 col-lg-3 mb-4">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://apichallenge2-67b79.web.app/" target="_blank">
-                  <img src="./pillspics/giphyAPI.png" class="img-fluid" />
-                  </a>
+                <!--!* START OF           -->
+                <!--! PORTFOLIO -->
+                <!--* ____________________-->
+                <div class="col-lg-4 col-md-12">
+                  <div class="card">
+                    <div class="bg-image hover-zoom shadow-1-strong rounded">
+                      <a href="https://github.com/Alex-Lee-Myers/alex-lee-myers.github.io" target="_blank">
+                        <img src="./pillspics/portfolioGit.png" class="img-fluid" />
+                      </a>
+                    </div>
+                    <p class="text-uppercase text-center font-weight-bold my-4">
+                      Portfolio | Github
+                    </p>
+                    <!--! centered Buttons -->
+                    <div class="d-flex  btn-group justify-content-around">
+                      <!--! live demo link -->
+                      <a href="https://github.com/Alex-Lee-Myers/alex-lee-myers.github.io" target="_blank">
+                        <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                          style="background-color:#FCEDDA">Demo<i
+                            class="fas fa-external-link-square-alt ms-1"></i></button>
+                      </a>
+
+                      <!--! BEGGINING OF MODAL BUTTON  -->
+                      <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                        style="background-color:#daebee" data-mdb-toggle="modal" data-mdb-target="#PortfolioModal">
+                        Project Details <i class="fas fa-info-circle ms-1"></i>
+                      </button>
+
+
+                      <!--! BEGINNING OF GITHUB BUTTON -->
+                      <a class="btn btn-primary" style="background-color: #333333;"
+                        href="https://github.com/Alex-Lee-Myers/Location-Station" target="_blank" role="button">Repo <i
+                          class="fab fa-github ms-1"></i></button></a>
+                      <!--! END OF GITHUB BUTTON -->
+                    </div>
+                  </div>
                 </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Giphy - API Project
-                </p>
-              </div>
-              
-              <div class="col-md-6 col-lg-3 mb-4">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://github.com/Alex-Lee-Myers/alex-lee-myers.github.io" target="_blank">
-                    <img src="./pillspics/portfolioGit.png" class="img-fluid" />
-                  </a>
-                </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Portfolio | Github
-                </p>
-              </div>
 
-              <div class="col-md-6 col-lg-3 mb-4">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://codepen.io/ManagingLions/pen/VwbJqyW" target="_blank">
-                    <img src="./pillspics/yoshiCreature.png" class="img-fluid"/>
-                  </a>
-                </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Yoshi - CSS Creature
-                </p>
-              </div>
+                <!--! ____________________ -->
+                <!--! END OF PORTFOLIO -->
+                <!--! ____________________-->
 
-              <div class="col-md-6 col-lg-3 mb-4">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://replit.com/@Alex-Lee-Myers" target="_blank">
-                    <img src="./pillspics/Replits.png" class="img-fluid" />
-                  </a>
-                </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Replit's
-                </p>
-              </div>
+                <!--!* START OF           -->
+                <!--! YOSHI -->
+                <!--* ____________________-->
 
+                <div class="col-lg-4 col-md-12">
+                  <div class="card">
+                    <div class="bg-image hover-zoom shadow-1-strong rounded">
+                      <a href="https://codepen.io/ManagingLions/pen/VwbJqyW" target="_blank">
+                        <img src="./pillspics/yoshiCreature.png" class="img-fluid" />
+                      </a>
+                    </div>
+                    <p class="text-uppercase text-center font-weight-bold my-4">
+                      Yoshi - CSS Creature
+                    </p>
+                    <!--! centered Buttons -->
+                    <div class="d-flex  btn-group justify-content-around">
+                      <!--! live demo link -->
+                      <a href="https://codepen.io/ManagingLions/pen/VwbJqyW" target="_blank">
+                        <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                          style="background-color:#FCEDDA">Demo<i
+                            class="fas fa-external-link-square-alt ms-1"></i></button>
+                      </a>
+
+                      <!--! BEGGINING OF MODAL BUTTON  -->
+                      <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                        style="background-color:#daebee" data-mdb-toggle="modal" data-mdb-target="#YoshiModal">
+                        Project Details <i class="fas fa-info-circle ms-1"></i>
+                      </button>
+
+
+                      <!--! BEGINNING OF GITHUB BUTTON -->
+                      <a class="btn btn-primary" style="background-color: #333333;"
+                        href="https://github.com/Alex-Lee-Myers/Location-Station" target="_blank" role="button">Repo <i
+                          class="fab fa-github ms-1"></i></button></a>
+                      <!--! END OF GITHUB BUTTON -->
+                    </div>
+                  </div>
+                </div>
+
+                <!--! ____________________ -->
+                <!--! END OF YOSHI -->
+                <!--! ____________________-->
+
+                <!--!* START OF           -->
+                <!--! REPLIT -->
+                <!--* ____________________-->
+
+                <div class="col-lg-4 col-md-12">
+                  <div class="card">
+                    <div class="bg-image hover-zoom shadow-1-strong rounded">
+                      <a href="https://replit.com/@Alex-Lee-Myers" target="_blank">
+                        <img src="./pillspics/Replits.png" class="img-fluid" />
+                      </a>
+                    </div>
+                    <p class="text-uppercase text-center font-weight-bold my-4">
+                      Replit's
+                    </p>
+                    <!--! centered Buttons -->
+                    <div class="d-flex  btn-group justify-content-around">
+                      <!--! live demo link -->
+                      <a href="https://amp-my-gamechest-react.herokuapp.com/" target="_blank">
+                        <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                          style="background-color:#FCEDDA">Demo<i
+                            class="fas fa-external-link-square-alt ms-1"></i></button>
+                      </a>
+
+                      <!--! BEGGINING OF MODAL BUTTON  -->
+                      <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                        style="background-color:#daebee" data-mdb-toggle="modal" data-mdb-target="#ReplitModal">
+                        Project Details <i class="fas fa-info-circle ms-1"></i>
+                      </button>
+
+
+                      <!--! BEGINNING OF GITHUB BUTTON -->
+                      <a class="btn btn-primary" style="background-color: #333333;"
+                        href="https://github.com/Alex-Lee-Myers/Location-Station" target="_blank" role="button">Repo <i
+                          class="fab fa-github ms-1"></i></button></a>
+                      <!--! END OF GITHUB BUTTON -->
+                    </div>
+                  </div>
+                </div>
+
+                <!--! ____________________ -->
+                <!--! END OF REPLIT -->
+                <!--! ____________________-->
+
+                                <!--!* START OF           -->
+                <!--! STATIC LAYOUT -->
+                <!--* ____________________-->
+
+                <div class="col-lg-4 col-md-12">
+                  <div class="card">
+                    <div class="bg-image hover-zoom shadow-1-strong rounded">
+                      <a href="https://alex-lee-myers.github.io/staticLayout/" target="_blank">
+                        <img src="./pillspics/StaticLayout.png" class="img-fluid" />
+                      </a>
+                    </div>
+                    <p class="text-uppercase text-center font-weight-bold my-4">
+                      Static Layout Mockup
+                    </p>
+                    <!--! centered Buttons -->
+                    <div class="d-flex  btn-group justify-content-around">
+                      <!--! live demo link -->
+                      <a href="https://alex-lee-myers.github.io/staticLayout/" target="_blank">
+                        <button type="button" class="btn btn-primary btn-light" data-mdb-ripple-color="#1266f1"
+                          style="background-color:#FCEDDA">Demo<i
+                            class="fas fa-external-link-square-alt ms-1"></i></button>
+                      </a>
+
+                      <!--! BEGGINING OF MODAL BUTTON  -->
+                      <button type="button" class="btn btn-light    " data-mdb-ripple-color="#ff5126"
+                        style="background-color:#daebee" data-mdb-toggle="modal" data-mdb-target="#StaticLayoutModal">
+                        Project Details <i class="fas fa-info-circle ms-1"></i>
+                      </button>
+
+
+                      <!--! BEGINNING OF GITHUB BUTTON -->
+                      <a class="btn btn-primary" style="background-color: #333333;"
+                        href="https://github.com/Alex-Lee-Myers/staticLayout" target="_blank" role="button">Repo <i
+                          class="fab fa-github ms-1"></i></button></a>
+                      <!--! END OF GITHUB BUTTON -->
+                    </div>
+                  </div>
+                </div>
+
+                <!--! END OF           -->
+                <!--! STATIC LAYOUT-->
+                <!--* ____________________-->
+              </div>
             </div>
-            </div>
-          </div>
 
-          <!-- * Design Tab -->
 
-          <div class="tab-pane fade" id="Design" role="tabpanel" aria-labelledby="Design-tab">
-            <div class="row">
-              
-              <div class="col-md-6 col-lg-3 mb-5">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://www.youtube.com/watch?v=RzKxN-FcPsQ" target="_blank">
-                    <img src="./pillspics/FB3trailer.png" class="img-fluid" />
-                  </a>
-                </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Full Bloom 3 Trailer
-                </p>
-              </div>
+            <!-- * Design Tab -->
 
-              <div class="col-md-6 col-lg-3 mb-5">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://www.youtube.com/watch?v=hY8vyVdCW5c" target="_blank">
-                    <img src="./pillspics/FB4trailer.png" class="img-fluid" />
-                  </a>
-                </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Full Bloom 4 Announcement Trailer
-                </p>
-              </div>
-
-              <div class="col-md-6 col-lg-3 mb-5">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://www.youtube.com/watch?v=UJFyp6BrPAw" target="_blank">
-                    <img src="./pillspics/FB4CompTrailer.png" class="img-fluid" />
-                  </a>
-                </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Full Bloom 4 Compendium Trailer
-                </p>
-              </div>
-
-              <div class="col-md-6 col-lg-3 mb-5">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://www.youtube.com/watch?v=UBPQYiamfdI" target="_blank">
-                    <img src="./pillspics/FB5trailer.png" class="img-fluid" />
-                  </a>
-                </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Full Bloom 5 Announcement Trailer
-                </p>
-              </div>
-
-              <div class="col-md-6 col-lg-3 mb-5">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://alex-lee-myers.github.io/staticLayout/" target="_blank">
-                    <img src="./pillspics/4thFloorPortraits.png" class="img-fluid" />
-                  </a>
-                </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Wells Library UITS Signage
-                </p>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- * TechDoc Tab -->
-
-          <div class="tab-pane fade" id="techdoc" role="tabpanel" aria-labelledby="techdoc-tab">
-            <div class="row">
-
-              <div class="col-md-6 col-lg-3 mb-5">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://kb.iu.edu/d/bgko" target="_blank">
-                    <img src="./pillspics/PowerpointPlotterInstructions.png" class="img-fluid" />
-                  </a>
-                </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Knowledge Base Plotter Instructions
-                </p>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- * EventOrg Tab -->
-
-          <div class="tab-pane fade" id="eventorg" role="tabpanel" aria-labelledby="eventorg-tab">
-            <div class="row">
-
-              <div class="col-md-6 col-lg-3 mb-5">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <img src="./pillspics/BtownBeatdown.png" class="img-fluid" />
-                </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  B-Town Beatdown Weekly Series
-                </p>
-              </div>
-
-              <div class="col-md-6 col-lg-3 mb-5">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://smash.gg/tournament/full-bloom-3/details" target="_blank">
-                    <img src="./pillspics/FB3.png" class="img-fluid" />
-                  </a>
-                </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Full Bloom 3
-                </p>
-              </div>
-
-              <div class="col-md-6 col-lg-3 mb-5">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://smash.gg/tournament/full-bloom-4" target="_blank">
-                    <img src="./pillspics/FB4trailer.png" class="img-fluid" />
-                  </a>
-                </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Full Bloom 4
-                </p>
-              </div>
-
-              <div class="col-md-6 col-lg-3 mb-5">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://smash.gg/tournament/full-bloom-5/details" target="_blank">
-                    <img src="./pillspics/FB5.png" class="img-fluid" />
-                  </a>
-                </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Full Bloom 5
-                </p>
-              </div>
-
-            </div>
-          </div>
-
-        <!-- * All Tab -->
-
-        <div class="tab-pane fade" id="all" role="tabpanel" aria-labelledby="all-tab">
-          <div class="row">
-            <!-- * WEB DEV STUFF -->
-            <div class="col-md-6 col-lg-3 mb-4">
-              <div class="bg-image hover-zoom shadow-1-strong rounded">
-                <img src="./pillspics/bluebadge.png" class="img-fluid" />
-              </div>
-              <p class="text-uppercase text-center font-weight-bold my-4">
-                Blue Badge
-              </p>
-            </div>
-
-            <div class="col-md-6 col-lg-3 mb-4">
-              <div class="bg-image hover-zoom shadow-1-strong rounded">
-                <a href="https://alex-lee-myers.github.io/staticLayout/" target="_blank"> 
-                  <img src="./pillspics/StaticLayout.png" class="img-fluid" />
-                </a>
-              </div>
-              <p class="text-uppercase text-center font-weight-bold my-4">
-                Red Badge
-              </p>
-            </div>
-
-            <div class="col-md-6 col-lg-3 mb-4">
-              <div class="bg-image hover-zoom shadow-1-strong rounded">
-                <a href="https://alex-lee-myers.github.io/staticLayout/" target="_blank"> 
-                  <img src="./pillspics/StaticLayout.png" class="img-fluid" />
-                </a>
-              </div>
-              <p class="text-uppercase text-center font-weight-bold my-4">
-                Static Layout Mockup
-              </p>
-            </div>
-
-            <div class="col-md-6 col-lg-3 mb-4">
-              <div class="bg-image hover-zoom shadow-1-strong rounded">
-                <a href="https://alex-lee-myers.github.io/apiChallenge1/" target="_blank">
-                  <img src="./pillspics/ApiChallengeOne.png" class="img-fluid" />
-                </a>
-              </div>
-              <p class="text-uppercase text-center font-weight-bold my-4">
-                Studio Ghibli Search - API Project
-              </p>
-            </div>
-          </div><!-- * Row 1 end -->
-          <div class="row">
-
-            <div class="col-md-6 col-lg-3 mb-4">
-              <div class="bg-image hover-zoom shadow-1-strong rounded">
-                <a href="https://apichallenge2-67b79.web.app/" target="_blank">
-                <img src="./pillspics/giphyAPI.png" class="img-fluid" />
-                </a>
-              </div>
-              <p class="text-uppercase text-center font-weight-bold my-4">
-                Giphy - API Project
-              </p>
-            </div>
-            
-            <div class="col-md-6 col-lg-3 mb-4">
-              <div class="bg-image hover-zoom shadow-1-strong rounded">
-                <a href="https://github.com/Alex-Lee-Myers/alex-lee-myers.github.io" target="_blank">
-                  <img src="./pillspics/portfolioGit.png" class="img-fluid" />
-                </a>
-              </div>
-              <p class="text-uppercase text-center font-weight-bold my-4">
-                Portfolio | Github
-              </p>
-            </div>
-
-            <div class="col-md-6 col-lg-3 mb-4">
-              <div class="bg-image hover-zoom shadow-1-strong rounded">
-                <a href="https://codepen.io/ManagingLions/pen/VwbJqyW" target="_blank">
-                  <img src="./pillspics/yoshiCreature.png" class="img-fluid" />
-                </a>
-              </div>
-              <p class="text-uppercase text-center font-weight-bold my-4">
-                Yoshi - CSS Creature
-              </p>
-            </div>
-
-            <div class="col-md-6 col-lg-3 mb-4">
-              <div class="bg-image hover-zoom shadow-1-strong rounded">
-                <a href="https://replit.com/@Alex-Lee-Myers" target="_blank">
-                  <img src="./pillspics/Replits.png" class="img-fluid" />
-                </a>
-              </div>
-              <p class="text-uppercase text-center font-weight-bold my-4">
-                Replit's
-              </p>
-            </div>
-          </div> <!--  *ROW 2 END -->
-              <!-- * DESIGN: START ROW -->
+            <div class="tab-pane fade" id="Design" role="tabpanel" aria-labelledby="Design-tab">
               <div class="row">
-              
+
                 <div class="col-md-6 col-lg-3 mb-5">
                   <div class="bg-image hover-zoom shadow-1-strong rounded">
                     <a href="https://www.youtube.com/watch?v=RzKxN-FcPsQ" target="_blank">
@@ -581,7 +657,7 @@
                     Full Bloom 3 Trailer
                   </p>
                 </div>
-  
+
                 <div class="col-md-6 col-lg-3 mb-5">
                   <div class="bg-image hover-zoom shadow-1-strong rounded">
                     <a href="https://www.youtube.com/watch?v=hY8vyVdCW5c" target="_blank">
@@ -592,7 +668,7 @@
                     Full Bloom 4 Announcement Trailer
                   </p>
                 </div>
-  
+
                 <div class="col-md-6 col-lg-3 mb-5">
                   <div class="bg-image hover-zoom shadow-1-strong rounded">
                     <a href="https://www.youtube.com/watch?v=UJFyp6BrPAw" target="_blank">
@@ -603,7 +679,230 @@
                     Full Bloom 4 Compendium Trailer
                   </p>
                 </div>
-  
+
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://www.youtube.com/watch?v=UBPQYiamfdI" target="_blank">
+                      <img src="./pillspics/FB5trailer.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 5 Announcement Trailer
+                  </p>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://alex-lee-myers.github.io/staticLayout/" target="_blank">
+                      <img src="./pillspics/4thFloorPortraits.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Wells Library UITS Signage
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- * TechDoc Tab -->
+
+            <div class="tab-pane fade" id="techdoc" role="tabpanel" aria-labelledby="techdoc-tab">
+              <div class="row">
+
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://kb.iu.edu/d/bgko" target="_blank">
+                      <img src="./pillspics/PowerpointPlotterInstructions.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Knowledge Base Plotter Instructions
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- * EventOrg Tab -->
+
+            <div class="tab-pane fade" id="eventorg" role="tabpanel" aria-labelledby="eventorg-tab">
+              <div class="row">
+
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <img src="./pillspics/BtownBeatdown.png" class="img-fluid" />
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    B-Town Beatdown Weekly Series
+                  </p>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://smash.gg/tournament/full-bloom-3/details" target="_blank">
+                      <img src="./pillspics/FB3.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 3
+                  </p>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://smash.gg/tournament/full-bloom-4" target="_blank">
+                      <img src="./pillspics/FB4trailer.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 4
+                  </p>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://smash.gg/tournament/full-bloom-5/details" target="_blank">
+                      <img src="./pillspics/FB5.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 5
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- * All Tab -->
+
+            <div class="tab-pane fade" id="all" role="tabpanel" aria-labelledby="all-tab">
+              <div class="row">
+                <!-- * WEB DEV STUFF -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <img src="./pillspics/bluebadge.png" class="img-fluid" />
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Blue Badge
+                  </p>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://alex-lee-myers.github.io/staticLayout/" target="_blank">
+                      <img src="./pillspics/StaticLayout.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Red Badge
+                  </p>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://alex-lee-myers.github.io/staticLayout/" target="_blank">
+                      <img src="./pillspics/StaticLayout.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Static Layout Mockup
+                  </p>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://alex-lee-myers.github.io/apiChallenge1/" target="_blank">
+                      <img src="./pillspics/ApiChallengeOne.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Studio Ghibli Search - API Project
+                  </p>
+                </div>
+              </div><!-- * Row 1 end -->
+              <div class="row">
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://apichallenge2-67b79.web.app/" target="_blank">
+                      <img src="./pillspics/giphyAPI.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Giphy - API Project
+                  </p>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://github.com/Alex-Lee-Myers/alex-lee-myers.github.io" target="_blank">
+                      <img src="./pillspics/portfolioGit.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Portfolio | Github
+                  </p>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://codepen.io/ManagingLions/pen/VwbJqyW" target="_blank">
+                      <img src="./pillspics/yoshiCreature.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Yoshi - CSS Creature
+                  </p>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://replit.com/@Alex-Lee-Myers" target="_blank">
+                      <img src="./pillspics/Replits.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Replit's
+                  </p>
+                </div>
+              </div> <!--  *ROW 2 END -->
+              <!-- * DESIGN: START ROW -->
+              <div class="row">
+
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://www.youtube.com/watch?v=RzKxN-FcPsQ" target="_blank">
+                      <img src="./pillspics/FB3trailer.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 3 Trailer
+                  </p>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://www.youtube.com/watch?v=hY8vyVdCW5c" target="_blank">
+                      <img src="./pillspics/FB4trailer.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 4 Announcement Trailer
+                  </p>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://www.youtube.com/watch?v=UJFyp6BrPAw" target="_blank">
+                      <img src="./pillspics/FB4CompTrailer.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 4 Compendium Trailer
+                  </p>
+                </div>
+
                 <div class="col-md-6 col-lg-3 mb-5">
                   <div class="bg-image hover-zoom shadow-1-strong rounded">
                     <a href="https://www.youtube.com/watch?v=UBPQYiamfdI" target="_blank">
@@ -615,17 +914,18 @@
                   </p>
                 </div>
               </div> <!-- * ROW 3 END -->
-               <div class="row"> <!-- * ROW 4 BEGIN -->
+              <div class="row">
+                <!-- * ROW 4 BEGIN -->
 
                 <div class="col-md-6 col-lg-3 mb-5">
                   <div class="bg-image hover-zoom shadow-1-strong rounded">
-                      <img src="./pillspics/4thFloorPortraits.png" class="img-fluid" />
+                    <img src="./pillspics/4thFloorPortraits.png" class="img-fluid" />
                   </div>
                   <p class="text-uppercase text-center font-weight-bold my-4">
                     Wells Library UITS Signage
                   </p>
                 </div>
-  
+
                 <!-- * DESIGN END -->
                 <!-- * TECHDOC BEGIN -->
 
@@ -640,31 +940,30 @@
                   </p>
                 </div>
 
-              <!-- * TECHDOC END -->
-              <!-- * EVENTORG BEGIN -->
+                <!-- * TECHDOC END -->
+                <!-- * EVENTORG BEGIN -->
 
-              <div class="col-md-6 col-lg-3 mb-5">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <img src="./pillspics/BtownBeatdown.png" class="img-fluid" />
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <img src="./pillspics/BtownBeatdown.png" class="img-fluid" />
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    B-Town Beatdown Weekly Series
+                  </p>
                 </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  B-Town Beatdown Weekly Series
-                </p>
-              </div>
 
-              <div class="col-md-6 col-lg-3 mb-5">
-                <div class="bg-image hover-zoom shadow-1-strong rounded">
-                  <a href="https://smash.gg/tournament/full-bloom-3/details" target="_blank">
-                    <img src="./pillspics/FB3.png" class="img-fluid" />
-                  </a>
+                <div class="col-md-6 col-lg-3 mb-5">
+                  <div class="bg-image hover-zoom shadow-1-strong rounded">
+                    <a href="https://smash.gg/tournament/full-bloom-3/details" target="_blank">
+                      <img src="./pillspics/FB3.png" class="img-fluid" />
+                    </a>
+                  </div>
+                  <p class="text-uppercase text-center font-weight-bold my-4">
+                    Full Bloom 3
+                  </p>
                 </div>
-                <p class="text-uppercase text-center font-weight-bold my-4">
-                  Full Bloom 3
-                </p>
-              </div>
 
-            </div> <!-- * ROW 4 END -->
-            <div class="row"> <!-- * ROW 5 BEGIN -->            
+              </div> <!-- * ROW 4 END -->
 
               <div class="col-md-6 col-lg-3 mb-5">
                 <div class="bg-image hover-zoom shadow-1-strong rounded">
@@ -687,146 +986,2287 @@
                   Full Bloom 5
                 </p>
               </div>
-
-            </div> <!-- * ROW 5 END, Can fit 2 more-->
             </div>
           </div>
         </div>
 
-        </div>
       </div>
-    </div>
+  </div>
+  </div>
   </section>
   <!--Section End-->
-</div>
+  </div>
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!--* ________________ CONTACT FORM ________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- * Contact Form section  -->
+  <!-- TODO #1 Change color of highlight when inputting text.
+  TODO #2 Check how it looks on mobile.  -->
 
-<!-- * Contact Form section  -->
-<!-- TODO #1 Change color of highlight when inputting text.
-     TODO #2 Check how it looks on mobile.  -->
-
-<section style="background: linear-gradient(
+  <section style="background: linear-gradient(
   180deg,
   rgba(255, 206, 194, 1) 0%,
   rgba(255, 206, 194, 1) 20%,
   rgba(255, 206, 194, 0) 90%
 );">
 
-  <div class="container shadow-5">
+    <div class="container shadow-5">
 
-    <section class="text-center" id="contactMe">
-  
-      <h3 class="mb-3">Let's get in touch.</h3>
-      <p>Get a hold of me by filling in the short form below and I will get back to you as soon as possible. Thank you!</p>
-  
-      <hr class="my-4" />
-  
-      <div class="row d-flex justify-content-center pt-2">
-  
-        <div class="col-md-6 mb-4">
-  
-          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mvodydwd"
-          method="post">
-            <fieldset id="fs-frm-inputs">
-
-              <!-- NAME: Where they put their NAME -->
-              <div class="form-outline mb-4">
-                <input type="text" id="form4Example1" class="form-control" name="name"/>
-                <label class="form-label" for="form4Example1">Name</label>
-                <div class="form-helper text-start">Your Name Here</div>
-              </div>
-    
-              <!-- EMAIL: Where they put their EMAIL -->
-              <div class="form-outline mb-4">
-                <input type="email" id="form4Example2" class="form-control" name="_replyto"/>
-                <label class="form-label" for="form4Example2">Email address</label>
-                <div class="form-helper text-start">email@company.com</div>
-              </div>
-    
-              <!-- MESSAGE: What they put in the MESSAGE -->
-              <div class="form-outline mb-4">
-                <textarea class="form-control" id="form4Example3" rows="4" name="message"></textarea>
-                <label class="form-label" for="form4Example3">Message</label>
-              </div>
-    
-              <!-- Submit button -->
-              <button type="submit" class="btn btn-primary btn-lg" id="sendButton" target="_blank" data-mdb-toggle="animation"
-              data-mdb-animation-reset="true" class="shadow-1-strong" >
-                Send
-              </button>
-
-          </fieldset>
-          </form>
-  
+      <section class="text-center" id="contactMe">
+        <div class="pt-5">
+          <h3 class="mb-3">Let's get in touch.</h3>
+          <p>Get a hold of me by filling in the short form below and I will get back to you as soon as possible. Thank
+            you!</p>
         </div>
-  
+        <hr class="my-4" />
+
+        <div class="row d-flex justify-content-center pt-2">
+
+          <div class="col-md-6 mb-4">
+
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mvodydwd"
+              method="post">
+              <fieldset id="fs-frm-inputs">
+
+                <!-- NAME: Where they put their NAME -->
+                <div class="form-outline mb-4">
+                  <input type="text" id="form4Example1" class="form-control" name="name" />
+                  <label class="form-label" for="form4Example1">Name</label>
+                  <div class="form-helper text-start">Your Name Here</div>
+                </div>
+
+                <!-- EMAIL: Where they put their EMAIL -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form4Example2" class="form-control" name="_replyto" />
+                  <label class="form-label" for="form4Example2">Email address</label>
+                  <div class="form-helper text-start">email@company.com</div>
+                </div>
+
+                <!-- MESSAGE: What they put in the MESSAGE -->
+                <div class="form-outline mb-4">
+                  <textarea class="form-control" id="form4Example3" rows="4" name="message"></textarea>
+                  <label class="form-label" for="form4Example3">Message</label>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-lg" id="sendButton" target="_blank"
+                  data-mdb-toggle="animation" data-mdb-animation-reset="true" class="shadow-1-strong">
+                  Send
+                </button>
+
+              </fieldset>
+            </form>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </div>
+  </section>
+
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!--* ________________ FOOTER ________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+
+  <footer class="text-center text-white" style="background-color: #DAEBEE;">
+
+    <div class="container">
+
+      <section>
+
+        <!-- Home -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#top" role="button"
+          data-mdb-ripple-color="dark"><i class="fas fa-home"></i>
+        </a>
+
+        <!-- Github -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/Alex-Lee-Myers" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+
+        <!-- LinkedIn -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/in/alexanderlmyers/"
+          role="button" data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+
+        <!-- Twitter-->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/AlexLeeMe" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+        <!-- Resume -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="./resume/Alex Lee Myers - Resume.pdf"
+          role="button" data-mdb-ripple-color="dark" target="_blank"><i class="fas fa-file"></i>
+        </a>
+      </section>
+
+    </div>
+
+  </footer>
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!--* ________________ALL MODALS________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+
+  <!--* ________________WEB DEV MODALS________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+
+  <!--* START____ -->
+  <!--! GAMECHEST -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="GameChestMoreDetailsModal" tabindex="-1"
+    aria-labelledby="GameChestMoreDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="GameChestMoreDetailsModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">GameChest</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- react icon -->
+            <div class="col">
+              <a href="https://reactjs.org/" target="_blank" data-mdb-toggle="tooltip" title="React">
+                <i class="fab fa-react fa-2x" style="color: #00CDF2">
+
+                </i>
+              </a>
+            </div>
+
+            <!-- Heroku -->
+            <div class="col">
+              <a href="https://amp-my-gamechest-react.herokuapp.com/" target="_blank" data-mdb-toggle="tooltip"
+                title="Heroku">
+                <i class="fas fa-heading fa-2x" style="color: #563259">
+
+                </i>
+              </a>
+            </div>
+
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+
+            <!-- Node.js icon -->
+            <div class="col">
+              <a href="https://nodejs.org/en/" target="_blank" data-mdb-toggle="tooltip" title="Node.JS">
+                <i class="fab fa-node fa-2x" style="color:#689f63">
+
+                </i>
+              </a>
+            </div>
+            <!-- Express -->
+            <div class="col">
+              <a href="http://expressjs.com/" target="_blank" data-mdb-toggle="tooltip" title="Express">
+                <i class="fas fa-arrow-circle-right fa-2x" style="color: #259DFF">
+
+                </i>
+              </a>
+            </div>
+            <!-- React-Router-V6 -->
+            <div class="col">
+              <a href="https://reactrouter.com/docs/en/v6/getting-started/overview" target="_blank"
+                data-mdb-toggle="tooltip" title="React-Router-Dom-V6">
+                <i class="fas fa-route fa-2x" style="color: #FB464E">
+
+                </i>
+              </a>
+            </div>
+            <!-- React-Burger-Menu -->
+            <div class="col">
+              <a href="https://github.com/negomi/react-burger-menu" target="_blank" data-mdb-toggle="tooltip"
+                title="React-Burger-Menu">
+                <i class="fas fa-hamburger fa-2x" style="color: #ffe602">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+
+            <!-- React icon -->
+            <div class="col">
+              <a href="https://reactstrap.github.io/?path=/story/home-installation--page" target="_blank"
+                data-mdb-toggle="tooltip" title="Reactstrap">
+                <i class="fab fa-react fa-2x" style="color: #54606C">
+
+                </i>
+              </a>
+            </div>
+
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Description</h3>
+          <p class="">
+            GameChest was a project I worked on in a team of three over a period of two weeks. The project was to create
+            a full-stack web application where unauthorized users would be able to see reviews of games and ratings of
+            them. The application would also allow authorized users to create reviews and ratings of games including
+            create a new game entry themselves. The application was built using React, Node.JS, Express, PostgreSQL,
+            Material Design Boostrap, React-Router-Dom, Bcrypt, JsonWebToken (JWT), Express, Reactstrap, and
+            React-Burger-Menu. </p>
+
+          <p>Below you can read about the parts I held full responsibility over.</p>
+
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Login and Register</h5>
+              <p class="text-muted">The User Experience</p>
+              <p class="">
+                My original main responsibility was for the authorization of users for both the frontend and backend. I
+                created login and register modals using React-Router-Dom and Reactstrap. In addition, I created a user
+                model to store user information in the database that was supported with JWT and Brypt. </p>
+              <p>I learned in
+                heavy detail how to properly prompt a user in both login and register with user interface details to
+                ensure that the user had a correct experience. There was a plethora of nested if statements to ensure
+                that the user was able to login and register properly and the site was secure.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Sidebar</h5>
+              <p class="text-muted">Authorized Routes</p>
+              <p class="">
+                Due to the time parameters placed on the project, I utilized an npm package called "React Burger Menu"
+                to quickly create a sidebar that users would use to navigate through the application. With conditions
+                based on useState's for authorization, the user would dynamically see various functional buttons between
+                logout, creating a game, creating a review, and updating previous entries they had created.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">All (App.js) the Rest</h5>
+              <p class="text-muted">Home is Where the Teamwork Lay</p>
+              <p>
+                With the aspect of being on heavy constraints for a shortened sprint, I took part in many hours-long
+                debug sessions for all aspects of the application. This is where I found my furthest growth and in
+                particular for how props get passed through multiple components and the case for state managers like
+                Redux and Remix. In this, I learned useEffect, conditionals for returns on the frontend, as well as
+                React-Router-Dom version 6.
+              </p>
+
+              <p>For the latter, utilizing the useHistory hook to navigate to different pages
+                as well as useNavigate hook to navigate to different pages. This made the user experience much more
+                fluid and streamlined.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/coderap931/teamBluePern-Client/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
       </div>
-  
-    </section>
-  
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
   </div>
-</section>
+  <!--! END____ -->
+  <!--! GAMECHEST -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! LOCATION STATION -->
+  <!--* _________ -->
 
-<!-- * Footer -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="LocationStationMoreDetailsModal" tabindex="-1"
+    aria-labelledby="LocationStationMoreDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="LocationStationMoreDetailsModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Location Station</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- react icon -->
+            <div class="col">
+              <a href="https://reactjs.org/" target="_blank" data-mdb-toggle="tooltip" title="React">
+                <i class="fab fa-react fa-2x" style="color: #00CDF2">
 
-<footer class="text-center text-white" style="background-color: #DAEBEE;">
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
 
-  <div class="container">
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
 
-    <section>
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
 
-      <!-- Home -->
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="#top"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fas fa-home"></i>
-      </a>
+                </i>
+              </a>
+            </div>
+            <!-- space shuttle icon -->
+            <div class="col">
+              <a href="https://api.nasa.gov/" target="_blank" data-mdb-toggle="tooltip" title="NASA API">
+                <i class="fas fa-space-shuttle fa-2x" style="color: #0D3E92">
 
-      <!-- Github -->
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="https://github.com/Alex-Lee-Myers"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-github"></i
-      ></a>
+                </i>
+              </a>
+            </div>
+            <!-- weather icon -->
+            <div class="col">
+              <a href="https://openweathermap.org/api" target="_blank" data-mdb-toggle="tooltip"
+                title="OpenWeather API">
+                <i class="fas fa-cloud-sun fa-2x" style="color: #d84924">
 
-      <!-- LinkedIn -->
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="https://www.linkedin.com/in/alexanderlmyers/"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-linkedin"></i
-      ></a>
+                </i>
+              </a>
+            </div>
+            <!-- ticket master icon -->
+            <div class="col">
+              <a href="https://developer.ticketmaster.com/" target="_blank" data-mdb-toggle="tooltip"
+                title="TicketMaster API">
+                <i class="fas fa-ticket-alt fa-2x" style="color:#0996d0">
 
-      <!-- Twitter-->
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="https://twitter.com/AlexLeeMe"
-        role="button"
-        data-mdb-ripple-color="dark"
-        ><i class="fab fa-twitter"></i
-      ></a>
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
 
-      <!-- Resume -->
-      <a
-        class="btn btn-link btn-floating btn-lg text-dark m-1"
-        href="./resume/Alex Lee Myers - Resume.pdf"
-        role="button"
-        data-mdb-ripple-color="dark"
-        target="_blank"
-        ><i class="fas fa-file"></i>
-      </a>
-    </section>
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
 
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Description</h3>
+          <p>
+            Location Station was an intense 72-hour team project that was assigned in the midst of my bootcamp with
+            Eleven Fifty Academy. It was not for the faint of heart due to not instructor help throughout the process,
+            differing skill levels between teammates, and coming fresh off our main section of learning React, but it
+            was a great experience. I was the git master and leader of a team of three originally. Due to the nature of
+            the time instensivity, I ended up doing the vast majority of the work. I was grateful for this as it led to
+            an exceptional learning breakthrough in how React works.
+          </p>
+          <p>
+            The project was to use React and build a site that incorporated the OpenWeather API, TicketMaster API, and
+            NASA API. The site was to be a single page application that would allow users to grab their location and
+            pull up relevant information for events nearby, a satellite image of their current location, and weather for
+            the day. You can see my contributions below.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">OpenWeather API</h5>
+              <p class="text-muted">Clouds cleared up.</p>
+              <p class="">
+                The OpenWeather API was used to fetch weather information for the user's location. The API was
+                integrated into the site by using the OpenWeather API key. The API was used to pull up the current
+                weather, the current weather icon, and the current weather description. It was originally pulling the
+                weather in Kelvin, but I integrated a button that would change the temperature to either Fahrenheit or
+                Celsius.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">NASA API</h5>
+              <p class="text-muted">Stars aligned.</p>
+              <p class="">
+                Originally tasked to a different team member, due to extenuating circumstances I was given the task in
+                the eleventh hour. After being able to fetch the image, it gave difficulties as it had no documentation
+                for fixed sizes. Due to this, I figured out how to resize the image to a fixed size once it was called
+                in and do so as well no matter the screen size.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Styling</h5>
+              <p class="text-muted">Quickly Cohesive</p>
+              <p class="">
+                The styling was performed with the MDBootstrap library. Originally, the site was having problems due to
+                the location not being immediately available. Instead of performing logic with useEffect, I made a
+                landing page instructing the user to click a button to confirm their agreement to gather their location
+                data. After doing so, it'd take them to a page that held a card group with each API call. From there,
+                each has a call to action button the user can easily identify. When clicking each button, they can they
+                then see the details that we called in each API.
+              </p>
+              <p>
+                Otherwise, I crafted a muted navbar that showed the users GPS coordinates we gathered. Additionally, if
+                they click the Google Maps icon, it'll take them to that coordinate within Google Maps itself. The
+                background of the site was a GIF that was called with a mask over it so the site was easier on the eyes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
   </div>
 
-</footer>
+  <!--! END____ -->
+  <!--! LOCATION STATION -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! STATIC LAYOUT -->
+  <!--* _________ -->
 
-<!-- Bootstrap, MDB, and Javascript Attached Here -->
-    <script type="text/javascript" src="./mdb/mdb.min.js"></script>
-    <script type="text/javascript" src="./apps.js"></script>
+  <!--!  Modal -->
+  <div class="modal fade right" id="StaticLayoutModal" tabindex="-1" aria-labelledby="StaticLayoutModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="StaticLayoutModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Static Layout</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+
+            <!-- FlexBox Froggy Icon -->
+            <div class="col">
+              <a href="https://flexboxfroggy.com/" target="_blank" data-mdb-toggle="tooltip" title="FlexBox Froggy">
+                <i class="fas fa-frog fa-2x" style="color: #69DA6B">
+
+                </i>
+              </a>
+            </div>
+
+          
+
+          <!-- CSS Zombie Icon -->
+          <div class="col">
+            <a href="https://geddski.teachable.com/p/flexbox-zombies" target="_blank" data-mdb-toggle="tooltip"
+              title="CSS Zombie">
+              <i class="fas fa-book-dead fa-2x" style="color: #EA5166">
+
+              </i>
+            </a>
+          </div>
+
+          <!-- CSS Grid Garden Icon -->
+          <div class="col">
+            <a href="https://cssgridgarden.com/" target="_blank" data-mdb-toggle="tooltip" title="CSS Grid Garden">
+              <i class="fas fa-leaf fa-2x" style="color: #4E7C31">
+
+              </i>
+            </a>
+          </div>
+
+          <!-- CSS Grid Gard Icon -->
+          <div class="col">
+            <a href="https://codepen.io/una/pen/NxZaNr" target="_blank" data-mdb-toggle="tooltip" title="Carnival">
+              <i class="fas fa-theater-masks fa-2x" style="color: #E882F2">
+
+              </i>
+            </a>
+          </div>
+
+        </div>
+        <!--* end of row of icons -->
+        </p>
+        <hr class="my-4" />
+        <h3 class="mb-3 h3">The Context</h3>
+        <p class="">
+          This was a project I made in only the second week of my bootcamp with EFA. We were assigned to create a
+          replicate of another site using only HTML and CSS, which we only learned in the week before. It built the very
+          foundation of everything else I've ever worked on since and I still leave it on my portfolio to remind me of
+          where I started.
+        </p>
+        <hr class="my-4" />
+        <div class="row">
+          <div class="col-lg-6 col-md-6 mb-4">
+            <h5 class="mb-3 h5">HTML5</h5>
+            <p class="text-muted">Where It Began</p>
+            <p class="">
+              Needless to say, this is where it all began for me, at least in the bootcamp. I had background in college
+              through my IU Bloomington Informatics Courses regarding HTML5 and CSS but not as intensely as I ended up
+              doing so within EFA's bootcamp. I was able to learn HTML5 and CSS in the first week of the bootcamp, but I
+              was still a little confused on how to use it. That being said, I remember feeling very accomplished with
+              my first static site and the passion started here.
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 mb-4">
+            <h5 class="mb-3 h5">CSS3</h5>
+            <p class="text-muted">"Not A Programming Language"</p>
+            <p class="">
+              My first foray into CSS was a painful experience but well needed. I learned CSS through a series of
+              various games: FlexBox Froggy, FlexBox Zombies, Grid Garden, and even more. That was needed to be able to
+              make anything that resembled the sight original site.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://alex-lee-myers.github.io/staticLayout/" target="_blank" role="button"
+          class="btn btn-primary">Demo</button></a>
+        <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+  <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! STATIC LAYOUT -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! STUDIO GHIBLI -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="StudioGhibliSearchModal" tabindex="-1"
+    aria-labelledby="StudioGhibliSearchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="StudioGhibliSearchModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Studio Ghibli Search</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- Studio Ghibli API -->
+            <div class="col">
+              <a href="https://ghibliapi.herokuapp.com/" target="_blank" data-mdb-toggle="tooltip" title="Studio Ghibli API">
+                <i class="fas fa-film fa-2x" style="color: #01A5E6">
+
+                </i>
+              </a>
+            </div>
+
+            <!-- Adobe Illustrator -->
+            <div class="col">
+              <a href="https://www.adobe.com/products/illustrator.html" target="_blank" data-mdb-toggle="tooltip" title="Adobe Illustrator">
+                <i class="fas fa-pen fa-2x" style="color: #FF9A00">
+
+                </i>
+              </a>
+            </div>
+
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">My First API Call</h3>
+          <p class="">
+            This is my first API fetch I've ever done. It was a fun learning experience that unlocked many other parts of projects in the future. I'm proud of what I was able to pull off originally and still will show it to this day. 
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">EscAPIsm</h5>
+              <p class="text-muted">Fetching new lands.</p>
+              <p class="">
+                Safe to say, this was the beginning of something beautiful in regards to most any future website I created. I was able to succesfully fetch the data from the API and display it on the page and was content with this at the time. You can still see the results of it to this day. 
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Styling Film</h5>
+              <p class="text-muted">The Highlight Reel</p>
+              <p class="">
+                I crafted my own logo for the site and incorporated a Gif to give the page some life. No styling libraries were used either, which you can tell in the dated 90's style of the stie, but it was the beginning of me playing around some more with the tools of CSS Grid and FlexBox. 
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">What I Learned</h5>
+              <p class="text-muted">and What I Did Next</p>
+              <p class="">
+                I learned my first API call and considered that a success in itself. From there, I was able to center all aspects of the design, incorporate some coloring fo legibility, and it was always fast to pull the correct information. 
+              </p>
+              <p>
+                From here, I embarked on a new journey as my world was opened up by API fetches. In the future, I went on to use this new skill to create more dynamic, interactive websites with a mix of features from React, Nodes, Express, PostgreSQL, among many other packages across web development.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Studio-Ghibli-API" target="_blank" role="button"
+            class="btn btn-primary">GitHub</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! STUDIO GHIBLI -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! GIPHY API -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="GiphyModal" tabindex="-1" aria-labelledby="GiphyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="GiphyModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Giphy Go</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- Giphy API icon -->
+            <div class="col">
+              <a href="https://developers.giphy.com/" target="_blank" data-mdb-toggle="tooltip" title="Giphy API">
+                <i class="far fa-file-video fa-2x" style="color: #00F291">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Where Gif's Can Be Gif's</h3>
+          <p class="">
+            A simple, straightforward website that allows users to search for gifs and save them to their computer. It showed another beginning step for my understanding on how API's are used. It shows the top result on the banner, where the next 6 results are displayed at the bottom of the page.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Giphy API</h5>
+              <p class="text-muted">Capturing the motion.</p>
+              <p class="">
+                Giphy's API is very versatile. It allows you to search for gifs, get trending gifs, get gifs by category, and get gifs by user. Obviously, my gif fetch is limited due to the scope of the project that would take less than a week to complete. My one big difficulty is how Giphy masks away their file types. They don't have a feature where you can download gif's directly, and obviously would like you to go to their page to do so, and I wasn't able to find a workaround for that. 
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Styling</h5>
+              <p class="text-muted">Containing the rainbow.</p>
+              <p class="">
+                To contain the fun of images and the general styling, I learned in detail about card, image flexing, and the grid system. I would definitely make a note of the grid system, as it is very important for the layout of the website. I would have changed some of the styling to make it more appealing and obvious for the fact that there is more content to be seen. 
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">cAll the Rest</h5>
+              <p class="text-muted">What I Learned</p>
+              <p class="">
+                What I always thought was some daunting task, I realized API fetches are somewhat simple. For third-party calls especially, reading documentation is vital for understanding how to pull what you are desiring to pull. Coming from a large background in technical documentation upkeep, being detail-oriented in your fetches are vital and I feel in sync with combining those skills. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://apichallenge2-67b79.web.app/#" target="_blank" role="button"
+            class="btn btn-primary">Demo</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! GIPHY -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! PORTFOLIO -->
+  <!--* _________ -->
+
+  <!--!  Modal -->
+  <div class="modal fade right" id="PortfolioModal" tabindex="-1" aria-labelledby="PortfolioModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="PortfolioModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Portfolio</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Meta: About (Read)Me.md</h3>
+          <p class="">
+            This portfolio came from the final project that was accomplished in the first section of my bootcamp with ElevenFiftyAcademey. As I learned the styling library MDB5, I decided to make a portfolio that would showcase my skills and abilities with it. It lacks in Javascript functionality, as well as reflecting my React knowledge, yet it currently holds all the content that I have learned in my time as a web developer. I am currently working on a new portfolio that will be a fully built with React.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Where I Began</h5>
+              <p class="text-muted">How This Portfolio Started.</p>
+              <p class="">
+                This portfolio was created within a week originally using HTML, CSS, and the Material Design Bootstrap 5 library. While at this current point, I am working on a totally new portfolio showing my React knowledgebase, I am comfortable with the styling updates I have done leading into that as a temporary solution to showcase all the work I've done.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Fitting My Life in a Grid</h5>
+              <p class="text-muted">Putting on my Daily Outfit</p>
+              <p class="">
+                This is a site where I incorporated grid heavily, and you can even see it within the inspect tool for these very cards. It made it a lot easier to see how the grid was working, and I was able to see how the grid was working in the browser and I am extremely comfortable with it at this point. 
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">What's Next?</h5>
+              <p class="text-muted">A webical React[ion].</p>
+              <p class="">
+                My next step is to showcase my React skillset and I am in the middle of building a totally new portfolio with the use of React. Look forward to that in the future as I am excited to show that off!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+
+  <!--! END____ -->
+  <!--! PORTFOLIO -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! YOSHI CSS -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="YoshiModal" tabindex="-1" aria-labelledby="YoshiModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="YoshiModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Yoshi CSS</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-center align-items-center g-2 g-lg-3 col-md-3">
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">CSS Mountain</h3>
+          <p class="">
+            This was a small assignment I took on within the second week of my coursework at E.F.A. Our requirement was to make a "creature" out of CSS only. I decided to make my favorite Mario franchise character Yoshi with...middling success.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Flexing</h5>
+              <p class="text-muted">Doing the heavylifting.</p>
+              <p class="">
+                This project only ending up using FlexBox, as you can see from the CSS Grid section, and it was an amazing first step to building websites later. I had major difficulties with it remaining across responsive browsers and devices, and I kept that "feature" to this day, as it was a huge part of my learning journey.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Grid Up</h5>
+              <p class="text-muted">Onto the gridiron!</p>
+              <p class="">
+                I worked a long time in understand the CSS Grid in later ventures. In this beginning project, I was able to learn the basics of the grid system and how to use it to create a simple layout. I did not incorporate it into this final proudct but it was a stepping stone for later projects.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">What'd I Learn?</h5>
+              <p class="text-muted">and What's Relevant to Now</p>
+              <p class="">
+                This was really my first stab with flexbox and grid. I had a wonderful time learning how to use it and how to make it work to make a simple facial structure. The biggest benefit was starting to see how flexbox and CSS grid work together. I ended up only using flexbox in the end, but I did trail and error with CSS Grid as well and now feel proficient in both.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+
+  <!--! END____ -->
+  <!--! YOSHI CSS -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! REPLITS -->
+  <!--* _________ -->
+
+  <!--!  Modal -->
+  <div class="modal fade right" id="ReplitModal" tabindex="-1" aria-labelledby="ReplitModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="ReplitModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Replit</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">A.B.C.: A Bootcamp Challenge</h3>
+          <p class="">
+            Replit was used as a testing website during my bootcamp with ElevenFiftyAcademy. It was a great way to get experience before hopping into HackerRank and LeetSkill challenges and to get a feel for the coding testing environment. 
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! REPLIT -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! WorkoutLogServer -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="WorkoutLogServerModal" tabindex="-1" aria-labelledby="WorkoutLogServerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="WorkoutLogServerModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Workout Log</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- Giphy API icon -->
+            <div class="col">
+              <a href="https://developers.giphy.com/" target="_blank" data-mdb-toggle="tooltip" title="Giphy API">
+                <i class="far fa-file-video fa-2x" style="color: #00F291">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Where Gif's Can Be Gif's</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Giphy API</h5>
+              <p class="text-muted">Capturing the motion.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Styling</h5>
+              <p class="text-muted">Containing the rainbow.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">cAll the Rest</h5>
+              <p class="text-muted">What I Learned</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! WORKOUT LOG SERVER -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! WorkoutLogClient -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="WorkoutLogClientModal" tabindex="-1" aria-labelledby="WorkoutLogClientModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="WorkoutLogClientModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Workout Log</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- Giphy API icon -->
+            <div class="col">
+              <a href="https://developers.giphy.com/" target="_blank" data-mdb-toggle="tooltip" title="Giphy API">
+                <i class="far fa-file-video fa-2x" style="color: #00F291">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Where Gif's Can Be Gif's</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Giphy API</h5>
+              <p class="text-muted">Capturing the motion.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Styling</h5>
+              <p class="text-muted">Containing the rainbow.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">cAll the Rest</h5>
+              <p class="text-muted">What I Learned</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! WORKOUT LOG CLIENT -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+  <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! ReactTaskManager -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="ReactTaskManagerModal" tabindex="-1" aria-labelledby="ReactTaskManagerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="ReactTaskManagerModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Workout Log</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- Giphy API icon -->
+            <div class="col">
+              <a href="https://developers.giphy.com/" target="_blank" data-mdb-toggle="tooltip" title="Giphy API">
+                <i class="far fa-file-video fa-2x" style="color: #00F291">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Where Gif's Can Be Gif's</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Giphy API</h5>
+              <p class="text-muted">Capturing the motion.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Styling</h5>
+              <p class="text-muted">Containing the rainbow.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">cAll the Rest</h5>
+              <p class="text-muted">What I Learned</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! ReactTaskManager-->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+    <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! ElevenJournal -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="ElevenJournalModal" tabindex="-1" aria-labelledby="ElevenJournalModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="ElevenJournalModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Workout Log</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- Giphy API icon -->
+            <div class="col">
+              <a href="https://developers.giphy.com/" target="_blank" data-mdb-toggle="tooltip" title="Giphy API">
+                <i class="far fa-file-video fa-2x" style="color: #00F291">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Where Gif's Can Be Gif's</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Giphy API</h5>
+              <p class="text-muted">Capturing the motion.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Styling</h5>
+              <p class="text-muted">Containing the rainbow.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">cAll the Rest</h5>
+              <p class="text-muted">What I Learned</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! ElevenJournal -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+      <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! Zoo Keeper Server Debug Challenge -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="ZooKeeperModal" tabindex="-1" aria-labelledby="ZooKeeperModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="ZooKeeperModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Workout Log</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- Giphy API icon -->
+            <div class="col">
+              <a href="https://developers.giphy.com/" target="_blank" data-mdb-toggle="tooltip" title="Giphy API">
+                <i class="far fa-file-video fa-2x" style="color: #00F291">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Where Gif's Can Be Gif's</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Giphy API</h5>
+              <p class="text-muted">Capturing the motion.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Styling</h5>
+              <p class="text-muted">Containing the rainbow.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">cAll the Rest</h5>
+              <p class="text-muted">What I Learned</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! ZooKeeper -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+      <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! ReactPropsChallenge -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="ReactPropsChallengeModal" tabindex="-1" aria-labelledby="ReactPropsChallengeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="ReactPropsChallengeModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Workout Log</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- Giphy API icon -->
+            <div class="col">
+              <a href="https://developers.giphy.com/" target="_blank" data-mdb-toggle="tooltip" title="Giphy API">
+                <i class="far fa-file-video fa-2x" style="color: #00F291">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Where Gif's Can Be Gif's</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Giphy API</h5>
+              <p class="text-muted">Capturing the motion.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Styling</h5>
+              <p class="text-muted">Containing the rainbow.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">cAll the Rest</h5>
+              <p class="text-muted">What I Learned</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! ReactPropsChallenge -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+    <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! ReactFundamentals -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="ReactFundamentalsModal" tabindex="-1" aria-labelledby="ReactFundamentalsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="ReactFundamentalsModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Workout Log</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- Giphy API icon -->
+            <div class="col">
+              <a href="https://developers.giphy.com/" target="_blank" data-mdb-toggle="tooltip" title="Giphy API">
+                <i class="far fa-file-video fa-2x" style="color: #00F291">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Where Gif's Can Be Gif's</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Giphy API</h5>
+              <p class="text-muted">Capturing the motion.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Styling</h5>
+              <p class="text-muted">Containing the rainbow.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">cAll the Rest</h5>
+              <p class="text-muted">What I Learned</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! ReactFundamentals -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+      <!-- _____________________________________________________ -->
+  <!--* START____ -->
+  <!--! MusicBlog -->
+  <!--* _________ -->
+  <!--!  Modal -->
+  <div class="modal fade right" id="MusicBlogModal" tabindex="-1" aria-labelledby="MusicBlogModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable mx-0 mx-sm-auto">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="MusicBlogModalLabel">Project Details for</h5>
+          <button type="button" class="close text-white" data-mdb-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h1 class="mb-3 h1">Workout Log</h1>
+          <hr class="my-4" />
+          <h4 class="mb-3 h4 text-muted">Technologies used:</h4>
+          <p class="">
+            <!--* row of icons -->
+          <div class="d-flex flex-row justify-content-start align-items-start g-2 g-lg-3">
+            <!-- Giphy API icon -->
+            <div class="col">
+              <a href="https://developers.giphy.com/" target="_blank" data-mdb-toggle="tooltip" title="Giphy API">
+                <i class="far fa-file-video fa-2x" style="color: #00F291">
+
+                </i>
+              </a>
+            </div>
+            <!-- Javascript Icon -->
+            <div class="col">
+              <a href="https://www.javascript.com/" target="_blank" data-mdb-toggle="tooltip" title="Javascript">
+                <i class="fab fa-js fa-2x" style="color: #E5D380">
+
+                </i>
+              </a>
+            </div>
+            <!-- MDB icon -->
+            <div class="col">
+              <a href="https://mdbootstrap.com/" target="_blank" data-mdb-toggle="tooltip" title="MDBoostrap 5">
+                <i class="fab fa-mdb fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- git icon -->
+            <div class="col">
+              <a href="https://git-scm.com/" target="_blank" data-mdb-toggle="tooltip" title="Git">
+                <i class="fab fa-git fa-2x text-dark">
+
+                </i>
+              </a>
+            </div>
+            <!-- HTML5 icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" data-mdb-toggle="HTML5"
+                title="HTML5">
+                <i class="fab fa-html5 fa-2x" style="color: #d84924">
+
+                </i>
+              </a>
+            </div>
+            <!-- CSS3 Icon -->
+            <div class="col">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" data-mdb-toggle="tooltip"
+                title="CSS3">
+                <i class="fab fa-css3-alt fa-2x" style="color: #0B74B7">
+
+                </i>
+              </a>
+            </div>
+
+          </div>
+          <!--* end of row of icons -->
+          </p>
+          <hr class="my-4" />
+          <h3 class="mb-3 h3">Where Gif's Can Be Gif's</h3>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            sunt vel, voluptas eaque ratione nam provident repellendus saepe
+            cum! Minima, laudantium sit. Architecto velit laboriosam ullam
+            aspernatur cupiditate doloribus provident. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Laudantium ipsam nihil
+            temporibus asperiores at esse aperiam corrupti magnam impedit
+            delectus obcaecati, dolorum perferendis unde quia hic nostrum
+            nobis, repellendus eligendi.
+          </p>
+          <hr class="my-4" />
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <h5 class="mb-3 h5">Giphy API</h5>
+              <p class="text-muted">Capturing the motion.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">Styling</h5>
+              <p class="text-muted">Containing the rainbow.</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <h5 class="mb-3 h5">cAll the Rest</h5>
+              <p class="text-muted">What I Learned</p>
+              <p class="">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+                nemo commodi odio veniam nisi? Cupiditate nobis doloremque
+                unde in ut, consequatur reprehenderit saepe iure
+                perspiciatis, veniam facilis asperiores deleniti at?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/Alex-Lee-Myers/Location-Station/blob/main/README.md" target="_blank" role="button"
+            class="btn btn-primary">ReadMe.MD</button></a>
+          <button type="button" class="btn btn-outline-primary" data-mdb-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--! END OF MORE DETAILS BUTTON DIV  -->
+  </div>
+  <!--! END____ -->
+  <!--! MusicBlog -->
+  <!--! _________ -->
+  <!-- _____________________________________________________ -->
+
+
+  <!-- Bootstrap, MDB, and Javascript Attached Here -->
+  <script type="text/javascript" src="./mdb/mdb.min.js"></script>
+  <script type="text/javascript" src="./apps.js"></script>
 </body>
+
 </html>
